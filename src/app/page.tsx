@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
+import HeroCarousel from "./components/sections/HeroCarousel";
 import Hero from "./components/sections/Hero";
 import TrustStrip from "./components/sections/TrustStrip";
 import Stats from "./components/sections/Stats";
@@ -42,6 +43,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <HeroCarousel />
       <Hero />
       <TrustStrip />
       <Stats />
