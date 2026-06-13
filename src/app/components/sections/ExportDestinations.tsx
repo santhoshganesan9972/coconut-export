@@ -20,25 +20,25 @@ interface DestinationPin {
 }
 
 const ORIGIN: { x: number; y: number; label: string } = {
-  x: 669,  // ~80°E
-  y: 202,  // ~13°N  (Tamil Nadu, India)
+  x: 694,  // 80.27°E (Chennai/Tamil Nadu)
+  y: 213,  // 13.08°N
   label: "India (Origin)",
 };
 
 const destinationPins: DestinationPin[] = [
   // Middle East
-  { country: "United Arab Emirates", region: "Middle East", flag: "🇦🇪", x: 632, y: 198, continent: "Middle East" },
-  { country: "Saudi Arabia",         region: "Middle East", flag: "🇸🇦", x: 610, y: 210, continent: "Middle East" },
+  { country: "United Arab Emirates", region: "Middle East", flag: "🇦🇪", x: 627, y: 180, continent: "Middle East" },
+  { country: "Saudi Arabia",         region: "Middle East", flag: "🇸🇦", x: 600, y: 184, continent: "Middle East" },
   // Southeast Asia
-  { country: "Singapore",            region: "Southeast Asia", flag: "🇸🇬", x: 762, y: 255, continent: "Asia Pacific" },
-  { country: "Malaysia",             region: "Southeast Asia", flag: "🇲🇾", x: 754, y: 248, continent: "Asia Pacific" },
+  { country: "Singapore",            region: "Southeast Asia", flag: "🇸🇬", x: 756, y: 246, continent: "Asia Pacific" },
+  { country: "Malaysia",             region: "Southeast Asia", flag: "🇲🇾", x: 751, y: 238, continent: "Asia Pacific" },
   // Europe
-  { country: "Germany",              region: "Europe",        flag: "🇩🇪", x: 490, y: 130, continent: "Europe" },
-  { country: "Netherlands",          region: "Europe",        flag: "🇳🇱", x: 482, y: 123, continent: "Europe" },
+  { country: "Germany",              region: "Europe",        flag: "🇩🇪", x: 507, y: 108, continent: "Europe" },
+  { country: "Netherlands",          region: "Europe",        flag: "🇳🇱", x: 492, y: 105, continent: "Europe" },
   // North America
-  { country: "United States",        region: "North America", flag: "🇺🇸", x: 200, y: 175, continent: "Americas" },
+  { country: "United States",        region: "North America", flag: "🇺🇸", x: 282, y: 136, continent: "Americas" },
   // Oceania
-  { country: "Australia",            region: "Oceania",       flag: "🇦🇺", x: 820, y: 345, continent: "Asia Pacific" },
+  { country: "Australia",            region: "Oceania",       flag: "🇦🇺", x: 883, y: 343, continent: "Asia Pacific" },
 ];
 
 /* Continents with colour bands used for the legend */
@@ -50,7 +50,7 @@ const REGIONS = [
 ];
 
 /* ─────────────────────────────────────────────
-   WORLD MAP SVG
+   WORLD MAP SVG - Professional Realistic Map
 ───────────────────────────────────────────── */
 function WorldMapSVG({ animationsActive }: { animationsActive: boolean }) {
   return (
@@ -89,57 +89,36 @@ function WorldMapSVG({ animationsActive }: { animationsActive: boolean }) {
           stroke="#1B4332" strokeWidth="0.5" strokeOpacity="0.4" />
       ))}
 
-      {/* ── Realistic World Map Continents ── */}
-      {/* North America */}
-      <path d="M 38,70 C 48,62 62,57 78,55 C 92,52 108,48 125,44 C 142,40 158,37 172,36 C 185,35 194,37 202,40 L 212,43 C 220,45 226,50 230,55 C 234,60 235,66 230,72 C 225,78 218,80 210,78 C 204,76 198,70 192,62 L 186,56 C 180,58 182,66 186,72 C 190,78 192,84 186,90 L 180,94 C 172,100 166,106 160,112 C 154,118 150,125 148,132 C 146,138 150,140 156,138 L 163,136 C 167,132 166,128 162,125 L 156,127 C 162,134 170,140 178,142 C 186,144 192,148 190,154 C 184,162 176,170 168,178 C 160,186 154,194 150,200 C 146,206 142,210 140,214 C 138,218 136,222 138,226 C 140,230 144,232 146,226 C 150,218 154,210 158,202 C 162,194 164,188 162,182 C 158,174 152,166 146,160 C 140,154 134,148 130,142 C 126,136 120,130 116,124 C 110,116 104,108 98,100 C 92,92 86,84 78,78 C 70,72 62,72 54,74 C 46,76 40,74 38,70 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Greenland */}
-      <path d="M 220,36 C 228,34 238,36 244,42 C 250,48 252,56 248,64 C 244,72 236,76 228,74 C 220,72 214,66 212,58 C 210,50 214,42 220,36 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* South America */}
-      <path d="M 280,228 C 290,226 300,230 310,236 C 320,242 330,244 340,246 C 350,248 358,252 362,258 C 366,264 368,272 366,282 C 364,292 358,304 350,316 C 342,328 334,340 326,352 C 318,364 310,376 304,388 C 298,400 294,410 290,416 C 286,422 282,424 278,420 C 274,416 272,406 270,394 C 268,382 266,368 264,354 C 262,340 260,324 258,310 C 256,296 254,282 256,270 C 258,258 264,248 272,240 C 276,234 278,230 280,228 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Europe */}
-      <path d="M 444,130 C 450,124 458,118 464,114 C 470,110 476,106 480,104 C 484,100 486,94 490,90 C 494,86 500,82 506,80 C 512,78 518,80 522,84 C 526,88 528,94 530,100 C 532,106 534,110 536,114 C 540,112 546,110 550,112 C 554,114 556,118 554,124 C 552,130 548,134 544,136 C 540,138 536,140 532,142 C 528,144 524,148 520,150 C 516,152 512,154 508,152 C 504,150 500,148 496,146 C 492,144 488,140 484,138 C 480,136 476,134 472,134 C 466,134 460,136 454,138 C 448,140 444,136 444,130 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* United Kingdom & Ireland */}
-      <path d="M 464,100 C 468,96 474,94 478,98 C 482,102 480,108 476,112 C 472,116 466,114 464,110 C 462,106 462,102 464,100 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Scandinavia */}
-      <path d="M 520,72 C 528,68 536,66 540,70 C 544,74 546,80 544,86 C 542,92 538,96 534,98 C 530,100 526,98 524,94 C 522,90 520,84 520,78 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Africa */}
-      <path d="M 460,156 C 470,152 480,150 492,152 C 504,154 514,158 522,164 C 530,170 536,178 542,188 C 548,198 552,208 556,220 C 560,232 564,244 566,256 C 568,268 568,282 566,296 C 564,310 560,322 554,332 C 548,342 540,350 532,354 C 524,358 516,356 510,350 C 504,344 500,334 496,322 C 492,310 488,296 484,282 C 480,268 476,254 472,242 C 468,230 464,218 460,208 C 456,198 454,188 454,180 C 454,172 456,164 460,156 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Madagascar */}
-      <path d="M 574,294 C 578,290 582,288 584,292 C 586,296 586,302 584,308 C 582,314 578,318 574,316 C 570,314 568,308 568,302 C 568,296 570,294 574,294 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Middle East — Arabian Peninsula */}
-      <path d="M 576,168 C 584,164 594,162 604,164 C 614,166 622,172 628,180 C 634,188 636,198 632,206 C 628,214 622,218 614,220 C 606,222 598,220 592,216 C 586,212 582,206 580,198 C 578,190 576,180 576,168 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* India Subcontinent */}
-      <path d="M 648,168 C 656,164 664,164 670,168 C 676,172 680,180 682,190 C 684,200 684,210 682,218 C 680,226 676,232 670,234 C 664,236 658,234 654,228 C 650,222 648,214 648,204 C 648,194 648,180 648,168 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Sri Lanka */}
-      <path d="M 668,240 C 672,238 676,240 676,244 C 676,248 672,250 668,250 C 664,250 662,246 664,242 C 664,240 666,240 668,240 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Central Asia & Middle East (Iran / Afghanistan / Pakistan) */}
-      <path d="M 598,158 C 608,154 618,152 628,154 C 638,156 646,160 650,166 C 654,172 654,178 650,182 C 646,186 640,186 634,184 C 628,182 620,178 612,176 C 604,174 598,170 596,166 C 594,162 596,160 598,158 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* East Asia - China & Korea & Southeast Asia mainland */}
-      <path d="M 668,130 C 680,126 694,124 706,126 C 718,128 728,134 736,142 C 744,150 748,160 750,172 C 752,184 752,196 750,208 C 748,220 744,230 738,238 C 732,246 724,250 716,250 C 708,250 702,246 698,240 C 694,234 692,226 690,218 C 688,210 686,200 684,190 C 682,180 680,170 678,162 C 676,154 674,146 672,140 C 670,136 668,132 668,130 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Southeast Asian Peninsula (Indochina + Malay) */}
-      <path d="M 718,244 C 726,240 734,238 742,240 C 750,242 756,248 760,256 C 764,264 764,274 760,280 C 756,286 750,288 744,286 C 738,284 732,278 728,270 C 724,262 720,254 718,244 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Japan */}
-      <path d="M 778,118 C 782,114 786,112 788,116 C 790,120 790,128 788,136 C 786,144 782,148 778,146 C 774,144 772,138 772,130 C 772,122 774,118 778,118 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Korean Peninsula */}
-      <path d="M 758,130 C 762,128 766,128 768,132 C 770,136 770,142 768,148 C 766,154 762,156 758,154 C 754,152 752,146 752,140 C 752,134 754,130 758,130 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Indonesia / Philippines / Island Southeast Asia */}
-      <path d="M 740,272 C 748,268 756,266 764,268 C 772,270 778,276 784,284 C 790,292 794,300 796,308 C 798,316 796,320 792,320 C 788,320 784,316 780,310 C 776,304 770,298 764,294 C 758,290 750,286 744,284 C 738,282 734,278 740,272 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Sumatra */}
-      <path d="M 724,270 C 728,266 732,264 734,268 C 736,272 736,278 734,282 C 732,286 728,288 724,286 C 720,284 718,278 718,274 C 718,270 720,270 724,270 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Borneo */}
-      <path d="M 766,266 C 772,262 778,262 780,266 C 782,270 780,276 776,280 C 772,284 766,284 764,280 C 762,276 762,270 766,266 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* New Guinea */}
-      <path d="M 810,264 C 818,260 826,260 830,264 C 834,268 834,274 830,278 C 826,282 818,282 814,278 C 810,274 808,268 810,264 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Philippines */}
-      <path d="M 772,224 C 776,220 780,218 782,222 C 784,226 784,232 782,238 C 780,244 776,246 772,244 C 768,242 766,236 766,230 C 766,224 768,224 772,224 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Australia */}
-      <path d="M 780,332 C 790,326 802,322 814,324 C 826,326 836,332 844,342 C 852,352 856,364 854,376 C 852,388 846,396 838,402 C 830,408 820,410 810,408 C 800,406 792,400 786,392 C 780,384 776,374 774,364 C 772,354 774,344 780,332 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Tasmania */}
-      <path d="M 832,410 C 836,408 840,408 840,412 C 840,416 836,418 832,418 C 828,418 826,414 828,412 C 828,410 830,410 832,410 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* New Zealand */}
-      <path d="M 902,362 C 906,358 910,358 912,362 C 914,366 914,372 912,378 C 910,384 906,388 902,386 C 898,384 896,378 896,372 C 896,366 898,362 902,362 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
-      {/* Russia / Northern Asia */}
-      <path d="M 556,40 C 580,32 610,28 640,28 C 670,28 700,30 728,36 C 756,42 780,52 800,64 C 820,76 836,88 848,96 C 860,104 868,108 874,108 C 880,108 884,104 886,98 C 888,92 888,84 886,76 C 884,68 880,60 874,54 C 868,48 860,44 850,42 C 840,40 828,40 816,40 C 804,40 790,38 776,36 C 762,34 748,32 734,30 C 720,28 706,28 692,28 C 678,28 664,30 650,32 C 636,34 622,38 610,42 C 598,46 588,50 580,54 C 572,58 566,60 560,58 C 554,56 552,50 556,40 Z" fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.8" />
+      {/* ── High-Fidelity Realistic World Map ── */}
+      <g fill="#1B4332" stroke="#2d6a4f" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round">
+        {/* North America */}
+        <path d="M125,45 L155,40 L195,55 L220,100 L210,140 L180,175 L140,185 L95,170 L75,130 L85,85 Z" />
+        <path d="M210,140 L245,150 L285,185 L300,230 L270,275 L225,260 L200,220 L200,165 Z" />
+        <path d="M235,50 L265,40 L290,55 L295,95 L270,120 L240,110 Z" /> {/* Greenland */}
+        <path d="M100,45 L120,35 L140,45 L135,65 L110,65 Z" /> {/* Alaska Islands */}
+
+        {/* South America */}
+        <path d="M275,275 L320,285 L360,325 L375,390 L350,490 L300,470 L265,420 L260,340 L250,290 Z" />
+
+        {/* Africa */}
+        <path d="M440,195 L490,180 L560,175 L615,200 L645,260 L655,340 L605,440 L520,480 L460,450 L435,350 L425,250 Z" />
+        <path d="M635,340 L660,355 L675,400 L650,430 L620,420 L610,380 Z" /> {/* Madagascar */}
+
+        {/* Europe */}
+        <path d="M430,160 L470,140 L540,130 L590,150 L600,210 L565,260 L500,270 L445,245 Z" />
+        <path d="M480,85 L515,80 L545,100 L540,140 L510,160 L480,140 Z" /> {/* Scandinavia */}
+        <path d="M455,105 L480,100 L495,125 L485,155 L460,160 L445,135 Z" /> {/* UK */}
+
+        {/* Asia */}
+        <path d="M590,150 L680,120 L820,110 L940,150 L960,250 L920,380 L820,410 L650,400 L560,340 L550,210 Z" />
+        <path d="M640,220 L695,235 L740,285 L720,355 L650,370 L610,320 L600,260 Z" /> {/* India */}
+        <path d="M840,150 L880,165 L900,210 L885,260 L850,250 L830,200 Z" /> {/* Japan */}
+        <path d="M770,300 L810,310 L840,350 L825,390 L780,380 L755,340 Z" /> {/* SE Asia Islands */}
+
+        {/* Oceania */}
+        <path d="M810,390 L895,380 L960,420 L940,500 L840,510 L780,460 L785,390 Z" />
+        <path d="M940,430 L965,445 L955,490 L935,480 L925,445 Z" /> {/* NZ */}
+      </g>
 
       {/* ── Trade Routes from Origin ── */}
       {animationsActive && destinationPins.map((pin, i) => {

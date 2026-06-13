@@ -10,6 +10,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const hamburgerRef = useRef<HTMLButtonElement>(null);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
 
@@ -199,73 +200,94 @@ export default function Navbar() {
         {mobileOpen && (
           <motion.div
             id="mobile-menu"
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-            className="md:hidden bg-white border-t border-gray-100 shadow-lg overflow-hidden"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="md:hidden bg-white border-t border-gray-100 shadow-xl overflow-hidden rounded-b-2xl absolute w-full left-0"
           >
-            <div className="px-4 sm:px-6 py-4 flex flex-col gap-1">
-              {navLinks.map((link) => (
+            <div className="px-5 py-4 flex flex-col gap-0.5 max-h-[85vh] overflow-y-auto">
+              {navLinks.map((link) => {
+                const isProducts = link.label === "Products";
+                
+                if (isProducts) {
+                  return (
+                    <div key={link.label} className="flex flex-col">
+                      <button
+                        onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                        className="flex items-center justify-between w-full text-gray-700 font-semibold py-2.5 px-3 rounded-lg hover:bg-gray-50 transition-all min-h-[48px]"
+                        aria-expanded={mobileProductsOpen}
+                      >
+                        <span className="text-[15px]">{link.label}</span>
+                        <motion.span
+                          animate={{ rotate: mobileProductsOpen ? 180 : 0 }}
+                          transition={{ duration: 0.2 }}
+                          className="text-[#D4A017] text-xs"
+                        >
+                          {mobileProductsOpen ? "▾" : "▸"}
+                        </motion.span>
+                      </button>
+                      
+                      <AnimatePresence>
+                        {mobileProductsOpen && (
+                          <motion.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: "auto", opacity: 1 }}
+                            exit={{ height: 0, opacity: 0 }}
+                            transition={{ duration: 0.25, ease: "easeInOut" }}
+                            className="overflow-hidden bg-gray-50/50 rounded-lg mx-1 my-1"
+                          >
+                            <div className="pl-6 pr-4 py-2 flex flex-col gap-0.5 border-l-2 border-[#D4A017]/30 ml-2">
+                              {[
+                                { name: "Fresh Brown Coconut", href: "/products/fresh-brown-coconut" },
+                                { name: "Pollachi Fresh Coconut", href: "/products/pollachi-fresh-coconut" },
+                                { name: "High Grade Coconut", href: "/products/high-grade-coconut" },
+                                { name: "Copra Coconut", href: "/products/copra-coconut" },
+                                { name: "Coco Peat", href: "/products/coco-peat" },
+                              ].map((product) => (
+                                <a
+                                  key={product.name}
+                                  href={product.href}
+                                  onClick={() => setMobileOpen(false)}
+                                  className="text-[13px] text-gray-600 font-medium py-2 hover:text-[#1B4332] transition-colors flex items-center"
+                                >
+                                  {product.name}
+                                </a>
+                              ))}
+                              <a
+                                href="/#products"
+                                onClick={() => setMobileOpen(false)}
+                                className="text-[11px] font-bold text-[#1B4332] pt-2 pb-1 hover:text-[#D4A017] transition-colors"
+                              >
+                                View All Products →
+                              </a>
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  );
+                }
+
+                return (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className="text-gray-700 font-semibold py-2.5 px-3 rounded-lg hover:bg-gray-50 hover:text-[#1B4332] transition-all min-h-[48px] flex items-center text-[15px]"
+                  >
+                    {link.label}
+                  </a>
+                );
+              })}
+
               <a
-                key={link.label}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="text-gray-700 font-medium py-3 px-2 border-b border-gray-50 last:border-0 hover:text-[#1B4332] transition-colors min-h-[44px] flex items-center"
-              >
-                {link.label}
-              </a>
-            ))}
-            {/* Mobile product sub-links */}
-            <div className="pl-4 border-l-2 border-[#D4A017]/30 space-y-1 mt-1">
-              <p className="text-[10px] uppercase tracking-widest text-[#D4A017] font-semibold pt-1 pb-1">
-                Whole Coconut
-              </p>
-              <a
-                href="/products/fresh-brown-coconut"
-                onClick={() => setMobileOpen(false)}
-                className="text-sm text-gray-600 font-medium py-2.5 block hover:text-[#1B4332] transition-colors min-h-[44px] flex items-center"
-              >
-                Fresh Brown Coconut
-              </a>
-              <a
-                href="/products/pollachi-fresh-coconut"
-                onClick={() => setMobileOpen(false)}
-                className="text-sm text-gray-600 font-medium py-2.5 block hover:text-[#1B4332] transition-colors min-h-[44px] flex items-center"
-              >
-                Pollachi Fresh Coconut
-              </a>
-              <a
-                href="/products/high-grade-coconut"
-                onClick={() => setMobileOpen(false)}
-                className="text-sm text-gray-600 font-medium py-2.5 block hover:text-[#1B4332] transition-colors min-h-[44px] flex items-center"
-              >
-                High Grade Coconut
-              </a>
-              <p className="text-[10px] uppercase tracking-widest text-[#D4A017] font-semibold pt-2 pb-1">
-                Processed
-              </p>
-              <a
-                href="/products/copra-coconut"
-                onClick={() => setMobileOpen(false)}
-                className="text-sm text-gray-600 font-medium py-2.5 block hover:text-[#1B4332] transition-colors min-h-[44px] flex items-center"
-              >
-                Copra Coconut
-              </a>
-              <a
-                href="/products/coco-peat"
-                onClick={() => setMobileOpen(false)}
-                className="text-sm text-gray-600 font-medium py-2.5 block hover:text-[#1B4332] transition-colors min-h-[44px] flex items-center"
-              >
-                Coco Peat
-              </a>
-            </div>              <a
                 href="/#contact"
                 onClick={() => {
                   setMobileOpen(false);
                   trackOutboundClick({ type: "request_quote", label: "Mobile Navbar Request Quote" });
                 }}
-                className="mt-2 bg-[#1B4332] text-white text-center px-5 py-3.5 rounded-full font-semibold hover:bg-[#143A28] transition-colors min-h-[44px] flex items-center justify-center"
+                className="mt-3 bg-[#1B4332] text-white text-center px-6 py-3 rounded-xl font-bold hover:bg-[#143A28] transition-all shadow-md active:scale-[0.98] flex items-center justify-center text-sm"
               >
                 Request Quote
               </a>
