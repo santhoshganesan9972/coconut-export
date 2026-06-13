@@ -194,7 +194,7 @@ export default function ExportDestinations() {
     <section
       id="destinations"
       ref={sectionRef}
-      className="relative py-20 md:py-24 overflow-hidden"
+      className="relative py-14 md:py-18 overflow-hidden"
       style={{ background: "linear-gradient(160deg, #0d2d1f 0%, #102a1e 40%, #0a1f16 100%)" }}
       aria-label="Export Destinations"
     >

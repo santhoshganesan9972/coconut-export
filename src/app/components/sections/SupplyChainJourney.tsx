@@ -44,7 +44,7 @@ const stepIcons = [
 
 export default function SupplyChainJourney() {
   return (
-    <section id="logistics" className="py-16 md:py-20 bg-[#FAFAFA]">
+    <section id="logistics" className="py-14 md:py-18 bg-[#FAFAFA]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div variants={fadeUp} initial="initial" whileInView="animate" viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-center max-w-2xl mx-auto mb-12">
           <p className="text-[#D4A017] uppercase tracking-[4px] text-sm font-medium mb-4">Supply Chain</p>

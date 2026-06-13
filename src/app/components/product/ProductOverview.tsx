@@ -33,8 +33,28 @@ export default function ProductOverview({ product }: { product: Product }) {
           {/* Left: full description */}
           <motion.div variants={fadeUp} initial="initial" whileInView="animate" viewport={{ once: true }} transition={{ duration: 0.55, delay: 0.05 }} className="lg:col-span-3">
             <div className="bg-white border border-[#E5E7EB] p-8 md:p-10">
+              {/* Scannable Quick Specs Grid */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10 pb-8 border-b border-[#E5E7EB]">
+                {[
+                  { label: "Export Grade", value: product.specifications.exportGrade, icon: "🏆" },
+                  { label: "MOQ", value: product.specifications.moq.split(" ").slice(0, 2).join(" "), icon: "📦" },
+                  { label: "Origin", value: "India", icon: "📍" },
+                  { label: "Port", value: "Chennai / Tuticorin", icon: "🚢" },
+                ].map((item) => (
+                  <div key={item.label} className="flex flex-col gap-1">
+                    <span className="text-[10px] font-bold text-[#9CA3AF] uppercase tracking-wider">{item.label}</span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-sm" aria-hidden="true">{item.icon}</span>
+                      <span className="text-[13px] font-bold text-[#1B4332]">{item.value}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
               <h3 className="font-serif text-2xl font-bold text-[#111827] mb-6 tracking-[-0.01em]">Premium Quality, Direct From Origin</h3>
-              <div className="space-y-4 text-[#6B7280] text-sm leading-relaxed"><p>{product.description}</p></div>
+              <div className="space-y-4 text-[#6B7280] text-sm leading-relaxed">
+                <p>{product.description}</p>
+              </div>
 
               <div className="mt-8 pt-8 border-t border-[#E5E7EB]">
                 <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#D4A017] mb-4 block">Key Highlights</span>

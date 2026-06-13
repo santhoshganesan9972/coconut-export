@@ -93,13 +93,21 @@ export default function AboutWhoWeAre() {
             A Export Partner Built for{" "}
             <span className="text-[#D4A017]">Scale</span>
           </h2>
-          <p className="mt-4 text-gray-500 text-sm md:text-base leading-relaxed">
-            Global Coco Exports is a professional export organization
-            headquartered in Tamil Nadu, India — the heart of India&apos;s coconut
-            belt. We bridge the gap between farm-level production and
-            international buyers through structured sourcing, certified
-            processing, and reliable logistics.
-          </p>
+          
+          <div className="mt-8 grid md:grid-cols-2 gap-8 text-left">
+            <div className="p-6 bg-[#FAFAFA] rounded-2xl border-l-4 border-[#D4A017]">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-[#D4A017] mb-2 block">Our Mission</span>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Global Coco Exports bridges the gap between farm-level production and international buyers through structured sourcing, certified processing, and reliable logistics.
+              </p>
+            </div>
+            <div className="p-6 bg-[#FAFAFA] rounded-2xl border-l-4 border-[#1B4332]">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-[#1B4332] mb-2 block">Strategic Origin</span>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Headquartered in Tamil Nadu, India — the heart of India&apos;s coconut belt — providing direct access to the finest raw materials and major export ports.
+              </p>
+            </div>
+          </div>
         </motion.div>
 
         {/* ── Core strengths grid ── */}

@@ -7,7 +7,7 @@ import type { Product } from "@/types";
 
 export default function ApplicationsSection({ product }: { product: Product }) {
   return (
-    <section className="relative overflow-hidden bg-[#FAFAFA] py-16 md:py-20">
+    <section className="relative overflow-hidden bg-[#FAFAFA] py-12 md:py-16">
       <div aria-hidden="true" className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 opacity-[0.022]" style={{ backgroundImage: "repeating-linear-gradient(0deg, #1B4332 0px, #1B4332 1px, transparent 1px, transparent 48px), repeating-linear-gradient(90deg, #1B4332 0px, #1B4332 1px, transparent 1px, transparent 48px)" }} />
         <div className="absolute top-0 right-0 w-[400px] h-[400px] rounded-full bg-[#D4A017]/[0.04] blur-[100px]" />

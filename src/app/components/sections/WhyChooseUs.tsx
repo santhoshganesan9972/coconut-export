@@ -131,7 +131,7 @@ export default function WhyChooseUs() {
     <section
       id="about"
       aria-label="Why choose us — core capabilities"
-      className="relative overflow-hidden bg-[#FAFAFA]"
+      className="relative overflow-hidden bg-[#FAFAFA] py-14 md:py-18"
     >
       {/* ── Background texture ── */}
       <div aria-hidden="true" className="pointer-events-none absolute inset-0">

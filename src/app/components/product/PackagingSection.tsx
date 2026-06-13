@@ -7,7 +7,7 @@ import type { Product } from "@/types";
 
 export default function PackagingSection({ product }: { product: Product }) {
   return (
-    <section className="relative overflow-hidden bg-white py-16 md:py-20">
+    <section className="relative overflow-hidden bg-white py-12 md:py-16">
       <div aria-hidden="true" className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 opacity-[0.022]" style={{ backgroundImage: "repeating-linear-gradient(90deg, #1B4332 0px, #1B4332 1px, transparent 1px, transparent 80px)" }} />
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#1B4332]/[0.04] blur-[100px]" />
