@@ -111,7 +111,7 @@ export default function Footer() {
               aria-label="Global Coco Exports — return to top"
             >
               <div className="w-10 h-10 rounded-xl overflow-hidden flex-shrink-0 transition-all duration-200 group-hover:brightness-110">
-                <Image src="/images/logo-icon.svg" alt="" width={40} height={40} className="w-full h-full" />
+                <Image src="/images/logo-image.png" alt="" width={40} height={40} className="w-full h-full object-contain" />
               </div>
               <span className="font-bold text-base tracking-wide text-white leading-tight">
                 GLOBAL COCO{" "}

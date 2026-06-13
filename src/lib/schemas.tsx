@@ -12,7 +12,7 @@ export function OrganizationSchema() {
     "@type": "Organization",
     name: "Global Coco Exports",
     url: BASE_URL,
-    logo: `${BASE_URL}/images/logo-primary.svg`,
+    logo: `${BASE_URL}/images/logo-image.png`,
     description:
       "Premium coconut, copra and coco peat export solutions for global markets. ISO & HACCP certified exporter from India.",
     address: {

@@ -54,7 +54,7 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
         {/* Logo */}
         <a href="/" className="flex items-center gap-2.5" aria-label="Global Coco Exports — Home">
           <div className="w-8 h-8 rounded-lg overflow-hidden flex-shrink-0">
-            <Image src="/images/logo-icon.svg" alt="" width={32} height={32} className="w-full h-full" />
+            <Image src="/images/logo-image.png" alt="" width={32} height={32} className="w-full h-full object-contain" />
           </div>
           <span
             className={`text-lg font-bold tracking-wide transition-colors duration-500 ${
