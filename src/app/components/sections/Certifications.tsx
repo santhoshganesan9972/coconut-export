@@ -301,7 +301,7 @@ function StandardCertCard({
 
       {/* Header area */}
       <div
-        className="relative flex flex-col items-center pt-8 pb-5 px-6"
+        className="relative flex flex-col items-center pt-6 pb-4 px-6"
         style={{ background: `linear-gradient(180deg, ${meta.accent}08 0%, transparent 100%)` }}
       >
         <motion.div
@@ -323,7 +323,7 @@ function StandardCertCard({
       </div>
 
       {/* Content */}
-      <div className="flex flex-col flex-1 px-6 pb-7 pt-1">
+      <div className="flex flex-col flex-1 px-6 pb-6 pt-1">
         {/* Tagline */}
         <span
           className="inline-flex self-center items-center gap-1 text-[9px] uppercase tracking-[2.5px] font-bold px-2.5 py-1 rounded-full mb-3"
@@ -382,7 +382,7 @@ function ComplianceNarrative({ isInView }: { isInView: boolean }) {
       initial={{ opacity: 0, y: 18 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, delay: 0.15 }}
-      className="mb-10 md:mb-14"
+      className="mb-8 md:mb-10"
       aria-label="Compliance assurance chain"
     >
       <div className="relative flex flex-col sm:flex-row items-stretch sm:items-center gap-0 rounded-2xl overflow-hidden border border-[#1B4332]/10 bg-white shadow-sm">
@@ -446,7 +446,7 @@ export default function Certifications() {
     <section
       id="certifications"
       ref={sectionRef}
-      className="relative py-20 md:py-24 overflow-hidden"
+      className="relative py-14 md:py-18 overflow-hidden"
       style={{ background: "linear-gradient(170deg, #FAFAFA 0%, #f4f8f5 50%, #FAFAFA 100%)" }}
       aria-label="Certifications and Compliance"
     >
@@ -473,7 +473,7 @@ export default function Certifications() {
           initial={{ opacity: 0, y: 28 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.65 }}
-          className="text-center mb-10 md:mb-12"
+          className="text-center mb-8 md:mb-10"
         >
           {/* Pre-label */}
           <div className="inline-flex items-center gap-2 mb-5">
@@ -535,7 +535,7 @@ export default function Certifications() {
         </div>
 
         {/* ── Standard Certifications (APEDA, SGS) ── */}
-        <div className="grid sm:grid-cols-2 gap-5 mb-12 md:mb-16">
+        <div className="grid sm:grid-cols-2 gap-5 mb-8 md:mb-12">
           {standard.map((cert, i) => {
             const meta = CERT_META[cert.name];
             if (!meta) return null;
@@ -578,7 +578,7 @@ export default function Certifications() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="flex items-start gap-4 p-6 md:p-7 hover:bg-white/[0.04] transition-colors"
+                className="flex items-start gap-4 p-5 md:p-6 hover:bg-white/[0.04] transition-colors"
               >
                 <span className="text-2xl flex-shrink-0 mt-0.5" aria-hidden="true">
                   {item.icon}

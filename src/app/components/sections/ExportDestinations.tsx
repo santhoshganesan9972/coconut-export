@@ -50,13 +50,13 @@ const REGIONS = [
 ];
 
 /* ─────────────────────────────────────────────
-   NEW COMPACT STATS DATA
+   COMPACT STATS DATA — emoji chips
 ───────────────────────────────────────────── */
 const NETWORK_STATS = [
-  { value: "15+", label: "Export Markets" },
-  { value: "500+", label: "Containers Exported" },
-  { value: "10+", label: "Years Experience" },
-  { value: "200+", label: "Commercial Partners" },
+  { icon: "🌍", value: "15+", label: "Markets" },
+  { icon: "🚢", value: "500+", label: "Containers" },
+  { icon: "🏆", value: "10+", label: "Years" },
+  { icon: "🤝", value: "200+", label: "Partners" },
 ];
 
 /* ─────────────────────────────────────────────
@@ -203,9 +203,9 @@ function WorldMapSVG({ animationsActive }: { animationsActive: boolean }) {
 }
 
 /* ─────────────────────────────────────────────
-   COUNTER COMPONENT — animates on view
+   COMPACT STAT CHIP — emoji inline with count-up
 ───────────────────────────────────────────── */
-function AnimatedStat({ value, label, delay }: { value: string; label: string; delay: number }) {
+function StatChip({ icon, value, label, delay }: { icon: string; value: string; label: string; delay: number }) {
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
@@ -235,18 +235,19 @@ function AnimatedStat({ value, label, delay }: { value: string; label: string; d
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 12 }}
+      initial={{ opacity: 0, y: 10 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.45, delay, ease: "easeOut" }}
-      className="bg-white/[0.05] border border-white/10 rounded-xl p-3.5 shadow-lg shadow-black/10 hover:bg-white/[0.08] transition-colors"
+      transition={{ duration: 0.4, delay, ease: "easeOut" }}
+      className="flex items-center gap-2.5 bg-white/[0.05] border border-white/10 rounded-lg px-3.5 py-2.5 shadow-lg shadow-black/10 hover:bg-white/[0.08] transition-colors"
     >
+      <span className="text-base" aria-hidden="true">{icon}</span>
       <span
         ref={ref}
-        className="text-2xl font-bold text-[#D4A017] block leading-none"
+        className="text-base font-bold text-[#D4A017] leading-none"
       >
         {value}
       </span>
-      <span className="text-[10px] uppercase tracking-[0.15em] text-green-200/50 mt-1 block">
+      <span className="text-[11px] text-green-200/60 font-medium">
         {label}
       </span>
     </motion.div>
@@ -359,8 +360,9 @@ export default function ExportDestinations() {
               {/* ── Premium Mini Stats Cards (2x2 grid) ── */}
               <div className="grid grid-cols-2 gap-3 pt-1">
                 {NETWORK_STATS.map((stat, i) => (
-                  <AnimatedStat
+                  <StatChip
                     key={stat.label}
+                    icon={stat.icon}
                     value={stat.value}
                     label={stat.label}
                     delay={0.2 + i * 0.08}
