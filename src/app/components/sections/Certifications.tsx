@@ -193,7 +193,7 @@ function FeaturedCertCard({
         }}
       />
 
-      <div className="relative z-10 flex flex-col sm:flex-row items-center sm:items-start gap-6 p-7 md:p-9">
+      <div className="relative z-10 flex flex-col sm:flex-row items-center sm:items-start gap-5 p-6 md:p-8">
         {/* Seal */}
         <motion.div
           initial={{ opacity: 0, scale: 0.7 }}
@@ -389,7 +389,7 @@ function ComplianceNarrative({ isInView }: { isInView: boolean }) {
         {NARRATIVE.map((item, i) => (
           <div
             key={item.step}
-            className="relative flex-1 flex flex-col sm:flex-row items-center gap-3 px-5 py-4 sm:py-5 group"
+            className="relative flex-1 flex flex-col sm:flex-row items-center gap-3 px-4 py-3 sm:py-4 group"
           >
             {/* Connector line between items */}
             {i < NARRATIVE.length - 1 && (
@@ -446,7 +446,7 @@ export default function Certifications() {
     <section
       id="certifications"
       ref={sectionRef}
-      className="relative py-14 md:py-18 overflow-hidden"
+      className="relative py-14 md:py-16 overflow-hidden"
       style={{ background: "linear-gradient(170deg, #FAFAFA 0%, #f4f8f5 50%, #FAFAFA 100%)" }}
       aria-label="Certifications and Compliance"
     >
