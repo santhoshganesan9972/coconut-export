@@ -4,45 +4,45 @@ export const whyChooseUsItems: WhyChooseUsItem[] = [
   {
     title: "Direct Farm Sourcing",
     description:
-      "Direct partnerships with 200+ certified farms across Tamil Nadu's coconut belt. No intermediaries — fully traceable produce from farm to FCL, with consistent quality year-round.",
+      "Direct sourcing from 200+ certified farms in Tamil Nadu — fully traceable from farm to FCL.",
     icon: "farm",
     keyAdvantage:
-      "100% traceable supply chain — every batch traceable to source farm with no intermediary dilution",
+      "100% traceable supply chain — farm to port, no intermediaries",
     businessBenefit:
-      "Buyers receive competitive pricing, consistent export-grade quality, and full supply chain visibility without intermediary markups",
+      "Competitive pricing, consistent quality, and full supply chain visibility",
     stat: { value: "200+", label: "Partner Farms" },
   },
   {
     title: "Quality Assurance",
     description:
-      "Multi-stage inspection at ISO 22000 & HACCP certified facilities — farm screening, processing verification, weight calibration, and pre-shipment container checks. Every shipment meets defined export-grade specs.",
+      "Four-stage inspection at ISO 22000 & HACCP certified facilities — farm intake to pre-shipment container checks.",
     icon: "quality",
     keyAdvantage:
-      "Four-stage inspection protocol at farm intake, processing, grading, and pre-shipment stages",
+      "Four-stage protocol: farm intake, processing, grading, pre-shipment",
     businessBenefit:
-      "Importers experience reduced rejection rates, consistent specification compliance, and full adherence to destination country import standards",
+      "Reduced rejection rates, consistent specs, full import compliance",
     stat: { value: "4", label: "Inspection Stages" },
   },
   {
     title: "Global Logistics",
     description:
-      "Integrated logistics across Chennai, Tuticorin, and Nhava Sheva ports. In-house documentation, customs clearance, and freight management with real-time container tracking for every shipment.",
+      "End-to-end logistics from Chennai, Tuticorin, and Nhava Sheva ports — docs, customs, and freight in-house.",
     icon: "logistics",
     keyAdvantage:
-      "Multi-port strategy with end-to-end logistics management under single-point accountability",
+      "Multi-port strategy with single-point accountability",
     businessBenefit:
-      "Importers receive faster lead times, competitive freight rates through consolidated carrier relationships, and worry-free documentation compliance",
+      "Faster lead times, competitive freight, worry-free documentation",
     stat: { value: "3", label: "Port Corridors" },
   },
   {
     title: "Export Expertise",
     description:
-      "10+ years exporting to 15+ countries. Our team manages customs, phytosanitary requirements, and import regulations. Every shipment includes complete documentation for smooth clearance at destination ports.",
+      "10+ years exporting to 15+ countries. We manage customs, phytosanitary, and import compliance for every shipment.",
     icon: "expertise",
     keyAdvantage:
-      "End-to-end documentation and compliance management for hassle-free customs clearance at destination",
+      "End-to-end documentation and compliance for hassle-free customs clearance",
     businessBenefit:
-      "Importers benefit from reduced demurrage risk, zero documentation-related delays, and full confidence in regulatory compliance across 15+ markets",
+      "Reduced demurrage risk, zero doc delays, full regulatory confidence",
     stat: { value: "10+", label: "Years Exporting" },
   },
 ];
@@ -52,44 +52,44 @@ export const supplyChainSteps: SupplyChainStep[] = [
     step: 1,
     title: "Farm Sourcing",
     description:
-      "Premium coconuts hand-selected from certified partner farms across Tamil Nadu. Our agronomists ensure optimal harvest timing, variety selection, and quality from source.",
+      "Premium coconuts hand-selected from certified farms across Tamil Nadu.",
     businessValue:
-      "Buyers benefit from direct farm relationships that eliminate intermediaries, ensuring complete traceability from grove to global buyer and competitive pricing from source.",
+      "Direct farm relationships eliminate intermediaries — complete traceability and competitive pricing.",
     qualityRelevance:
-      "Farm-level quality gates — each batch inspected for maturity, size uniformity, and visual integrity before acceptance into processing.",
+      "Farm-level inspection for maturity, size uniformity, and visual integrity.",
     image: "/images/Farm Sourcing-image.png",
   },
   {
     step: 2,
     title: "Quality Processing",
     description:
-      "Hygienic processing at ISO 22000 and HACCP certified facilities. Products are cleaned, sorted, graded, and prepared to strict export standards by trained QA personnel.",
+      "ISO 22000 & HACCP certified processing — cleaned, sorted, graded to export standards.",
     businessValue:
-      "Commercial partners receive products processed under internationally certified food safety protocols — protecting supply chain reputation and ensuring import compliance.",
+      "Products processed under certified food safety protocols — protecting your supply chain reputation.",
     qualityRelevance:
-      "Critical Control Points monitored continuously: temperature, humidity, hygiene, and product integrity across all processing stages.",
+      "CCPs monitored: temperature, humidity, hygiene, product integrity throughout.",
     image: "/images/Quality Processing-image.png",
   },
   {
     step: 3,
     title: "Packaging & Grading",
     description:
-      "Export-grade packaging to maintain freshness — from ventilated mesh bags for whole coconuts to compressed blocks for coco peat. Tailored to destination market requirements.",
+      "Export-grade packaging — ventilated mesh bags for coconuts, compressed blocks for coco peat. Tailored to your market.",
     businessValue:
-      "Importers benefit from flexible packaging configurations that reduce secondary handling costs and ensure products arrive in optimal condition at destination.",
+      "Flexible packaging reduces handling costs and ensures optimal arrival condition.",
     qualityRelevance:
-      "Each grade visually verified against reference samples; all packaging materials food-grade certified and selected for destination climate compatibility.",
+      "Each grade verified against reference samples; food-grade materials selected for climate compatibility.",
     image: "/images/storytelling/PRODUCTION & PACKAGING-image.png",
   },
   {
     step: 4,
     title: "Global Shipping",
     description:
-      "Container loading and shipping through major Indian ports with real-time tracking. We partner with Maersk, MSC, and CMA CGM for competitive freight and reliable schedules worldwide.",
+      "Container loading and shipping via Chennai, Tuticorin, and Nhava Sheva with real-time tracking.",
     businessValue:
-      "Commercial partners achieve lower total landed cost through consolidated logistics, competitive freight rates, and complete documentation support included with every shipment.",
+      "Lower landed cost through consolidated logistics, competitive freight, and included documentation.",
     qualityRelevance:
-      "Container pre-inspection, optimized stowage, and ventilation management ensure product condition throughout ocean transit.",
+      "Container pre-inspection, optimized stowage, and ventilation management.",
     image: "/images/storytelling/CONTAINER LOADING-image.png",
   },
 ];
@@ -118,28 +118,28 @@ export const regionGroups: RegionGroup[] = [
   {
     region: "Middle East",
     description:
-      "Our strongest market corridor — serving GCC nations with consistent weekly container shipments to Jebel Ali, Dammam, and other major Gulf ports. Deep relationships with importers across the region ensure smooth customs clearance and last-mile distribution. Typical transit time from South Indian ports: 5–10 days.",
+      "Our strongest market — weekly container shipments to Jebel Ali, Dammam, and major Gulf ports. Transit: 5–10 days.",
     color: "#D4A017",
     countries: exportDestinations.filter((d) => d.region === "Middle East"),
   },
   {
     region: "Europe",
     description:
-      "Growing demand for organic and premium coconut products across the EU. Our shipments to Rotterdam and Hamburg serve food manufacturers, health food distributors, and retail chains with full compliance to EU phytosanitary and quality standards. Typical transit time from Nhava Sheva: 20–25 days.",
+      "Growing demand across the EU — shipments to Rotterdam and Hamburg serve food manufacturers and distributors. Transit: 20–25 days.",
     color: "#4A9E6B",
     countries: exportDestinations.filter((d) => d.region === "Europe"),
   },
   {
     region: "North America",
     description:
-      "Strategic partnerships with importers in the USA and Canada serving the natural foods sector, wholesale clubs, and coconut water processors. All shipments comply with FDA import requirements and USDA phytosanitary standards. Typical transit time from Chennai/Nhava Sheva: 20–30 days.",
+      "Partnerships in the USA and Canada serving natural foods, wholesale, and coconut water sectors. Transit: 20–30 days.",
     color: "#2D7D9A",
     countries: exportDestinations.filter((d) => d.region === "North America"),
   },
   {
     region: "Asia-Pacific",
     description:
-      "Fast-growing markets across Southeast Asia, Oceania, and East Asia. Our proximity to regional shipping hubs in Singapore and Port Klang enables rapid transit times and cost-effective logistics for buyers across the Asia-Pacific trade zone. Typical transit time from Chennai: 7–14 days.",
+      "Fast-growing markets across Southeast Asia, Oceania, and East Asia via Singapore and Port Klang hubs. Transit: 7–14 days.",
     color: "#9B59B6",
     countries: exportDestinations.filter(
       (d) =>
