@@ -101,9 +101,9 @@ export default function MenuHero() {
                 variants={fadeUp}
                 className="text-[clamp(2.4rem,5.5vw,4rem)] leading-[1.08] tracking-[-0.025em] text-white font-bold"
               >
-                <span className="block max-w-4xl">Our Export Product</span>
+                <span className="block max-w-4xl">Premium Coconut</span>
                 <span className="block text-[clamp(1.8rem,4vw,3.2rem)] leading-[1.1] tracking-[-0.02em] text-[#D4A017] mt-1">
-                  Portfolio
+                  Export Products
                 </span>
               </motion.h1>
 
@@ -112,9 +112,7 @@ export default function MenuHero() {
                 variants={fadeUp}
                 className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[620px] font-medium"
               >
-                Explore our range of premium coconut and coir products developed
-                for international wholesale buyers, distributors, processors,
-                and agricultural industries.
+                Premium coconut and coir products for wholesale buyers, distributors, and processors worldwide.
               </motion.p>
 
               {/* ── Trust indicator pills ── */}

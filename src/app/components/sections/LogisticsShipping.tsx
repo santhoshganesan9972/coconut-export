@@ -19,7 +19,7 @@ const marketRegions: MarketRegion[] = [
   {
     region: "Middle East",
     description:
-      "Our nearest and most active export corridor. Frequent sailings from South Indian ports reach Gulf destinations within 5–10 days. Strong demand for premium coconut and coco peat.",
+      "Our most active corridor. Frequent sailings reach Gulf destinations within 5–10 days. Strong demand for premium coconut and coco peat.",
     countries: ["UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman", "Bahrain"],
     color: "#D4A017",
     flag: "🌍",
@@ -28,7 +28,7 @@ const marketRegions: MarketRegion[] = [
   {
     region: "Europe",
     description:
-      "Well-established shipping routes via Nhava Sheva and Colombo transshipment hubs. We serve organic food manufacturers, cosmetic ingredient buyers, and industrial processors.",
+      "Well-established routes via Nhava Sheva and Colombo. Serving organic food manufacturers, cosmetic buyers, and industrial processors.",
     countries: ["Germany", "Netherlands", "United Kingdom", "France", "Spain", "Belgium", "Italy"],
     color: "#4A9E6B",
     flag: "🌍",
@@ -37,7 +37,7 @@ const marketRegions: MarketRegion[] = [
   {
     region: "North America",
     description:
-      "Growing demand for organic coco peat and virgin coconut oil. We ship FCL containers via Nhava Sheva with reliable 20–28 day transit to US East Coast and Gulf ports.",
+      "Growing demand for organic coco peat and coconut oil. FCL containers via Nhava Sheva with 20–28 day transit to US ports.",
     countries: ["United States", "Canada"],
     color: "#2D7D9A",
     flag: "🌍",
@@ -46,7 +46,7 @@ const marketRegions: MarketRegion[] = [
   {
     region: "Asia-Pacific",
     description:
-      "Chennai Port offers excellent connectivity to Southeast Asia and Oceania. Serving copra buyers, coconut oil refineries, and coco peat distributors across the region.",
+      "Chennai Port offers excellent connectivity to Southeast Asia and Oceania. Serving copra buyers, oil refineries, and coco peat distributors.",
     countries: ["Singapore", "Malaysia", "China", "South Korea", "Australia"],
     color: "#9B59B6",
     flag: "🌍",

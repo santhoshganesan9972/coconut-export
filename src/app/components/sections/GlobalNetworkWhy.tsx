@@ -7,7 +7,7 @@ const reasons = [
   {
     title: "Traceability",
     description:
-      "Every batch is traceable from farm to FCL. Direct grower relationships eliminate intermediaries, giving you full visibility into your supply chain from source to destination.",
+      "Every batch traceable from farm to FCL. Direct grower relationships eliminate intermediaries for full supply chain visibility.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
@@ -17,7 +17,7 @@ const reasons = [
   {
     title: "Export Experience",
     description:
-      "Over a decade of international trade experience across 15+ countries. Our team navigates complex customs regimes, phytosanitary requirements, and destination-specific regulations with precision.",
+      "10+ years exporting to 15+ countries. Our team navigates customs, phytosanitary, and destination-specific regulations with precision.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -27,7 +27,7 @@ const reasons = [
   {
     title: "Reliable Supply",
     description:
-      "Long-term partnerships with over 200 certified partner farms provide supply stability and consistent quality even during seasonal fluctuations that affect spot markets.",
+      "200+ certified partner farms ensure supply stability and consistent quality, even during seasonal fluctuations.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
@@ -37,7 +37,7 @@ const reasons = [
   {
     title: "Competitive Pricing",
     description:
-      "Direct farm relationships, multi-port logistics strategy, and consolidated carrier relationships combine to deliver competitive pricing without compromising on quality or service.",
+      "Direct farms, multi-port logistics, and consolidated carrier relationships deliver competitive pricing without compromising quality.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />

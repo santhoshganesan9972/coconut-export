@@ -92,9 +92,7 @@ export default function RFQFinalCTA() {
           transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
           className="mt-6 text-white/60 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto"
         >
-          Our export team is ready to help you source premium coconut products
-          at competitive prices. Submit your RFQ or contact us directly to
-          begin your global procurement partnership.
+          Ready to source premium coconut products at competitive prices? Submit your RFQ or contact us to get started.
         </motion.p>
 
         {/* ── CTA Buttons ── */}

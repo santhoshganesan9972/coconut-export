@@ -133,25 +133,25 @@ export default function AboutHero() {
                 <span className="block w-8 h-px bg-[#D4A017]/50" />
               </motion.div>
 
-              {/* ── Heading ── */}
+              {/* ── Heading — direct, buyer-focused ── */}
               <motion.h1
                 variants={fadeUp}
                 className="text-[clamp(2.2rem,5vw,3.6rem)] leading-[1.08] tracking-[-0.025em] text-white font-bold"
               >
-                <span className="block max-w-4xl">Building Global Supply</span>
+                <span className="block max-w-4xl">Your Trusted</span>
                 <span className="block text-[clamp(1.8rem,4vw,3.2rem)] leading-[1.1] tracking-[-0.02em] text-[#D4A017] mt-1">
-                  Relationships Through Quality &amp; Reliability
+                  Coconut Export Partner
                 </span>
               </motion.h1>
 
-              {/* ── Subheading ── */}
+              {/* ── Subheading — simplified ── */}
               <motion.p
                 variants={fadeUp}
                 className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[620px] font-medium"
               >
-                Supporting international importers, distributors and industrial
-                buyers through dependable sourcing, quality assurance and
-                export-ready operations.
+                We help importers, distributors, and industrial buyers source
+                premium coconut products reliably. ISO &amp; HACCP certified,
+                with end-to-end export support.
               </motion.p>
 
               {/* ── Trust indicator pills ── */}

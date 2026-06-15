@@ -4,7 +4,7 @@ export const whyChooseUsItems: WhyChooseUsItem[] = [
   {
     title: "Direct Farm Sourcing",
     description:
-      "Importers benefit from direct partnerships with growers across Tamil Nadu's prime coconut belt — eliminating intermediaries and ensuring fully traceable, high-quality produce from farm to FCL. Our dedicated sourcing team maintains long-term relationships with over 200 certified partner farms, providing supply stability and consistent quality even during seasonal fluctuations that affect spot markets.",
+      "Direct partnerships with 200+ certified farms across Tamil Nadu's coconut belt. No intermediaries — fully traceable produce from farm to FCL, with consistent quality year-round.",
     icon: "farm",
     keyAdvantage:
       "100% traceable supply chain — every batch traceable to source farm with no intermediary dilution",
@@ -15,7 +15,7 @@ export const whyChooseUsItems: WhyChooseUsItem[] = [
   {
     title: "Quality Assurance",
     description:
-      "Every consignment undergoes rigorous multi-stage quality inspection at our ISO 22000 & HACCP certified facilities. Importers receive products that have passed farm-level screening, processing-line verification, weight calibration, and pre-shipment container inspection — against defined export-grade specifications — before any container is sealed.",
+      "Multi-stage inspection at ISO 22000 & HACCP certified facilities — farm screening, processing verification, weight calibration, and pre-shipment container checks. Every shipment meets defined export-grade specs.",
     icon: "quality",
     keyAdvantage:
       "Four-stage inspection protocol at farm intake, processing, grading, and pre-shipment stages",
@@ -26,7 +26,7 @@ export const whyChooseUsItems: WhyChooseUsItem[] = [
   {
     title: "Global Logistics",
     description:
-      "An integrated logistics network spanning three major Indian port corridors — Chennai, Tuticorin, and Nhava Sheva — provides commercial partners with routing flexibility to optimize transit times and freight costs for every destination. All export documentation, customs clearance, and freight coordination are managed in-house, providing single-point accountability with real-time container tracking across every consignment.",
+      "Integrated logistics across Chennai, Tuticorin, and Nhava Sheva ports. In-house documentation, customs clearance, and freight management with real-time container tracking for every shipment.",
     icon: "logistics",
     keyAdvantage:
       "Multi-port strategy with end-to-end logistics management under single-point accountability",
@@ -37,7 +37,7 @@ export const whyChooseUsItems: WhyChooseUsItem[] = [
   {
     title: "Export Expertise",
     description:
-      "With over a decade of international trade experience across 15+ countries, buyers rely on our export team to navigate complex customs regimes, phytosanitary requirements, certificate of origin protocols, and destination-specific import regulations with precision. Every shipment includes complete export documentation — Bill of Lading, Certificate of Origin, Phytosanitary Certificate, Commercial Invoice, and Packing List — ensuring smooth clearance at destination ports.",
+      "10+ years exporting to 15+ countries. Our team manages customs, phytosanitary requirements, and import regulations. Every shipment includes complete documentation for smooth clearance at destination ports.",
     icon: "expertise",
     keyAdvantage:
       "End-to-end documentation and compliance management for hassle-free customs clearance at destination",
@@ -52,7 +52,7 @@ export const supplyChainSteps: SupplyChainStep[] = [
     step: 1,
     title: "Farm Sourcing",
     description:
-      "Premium coconuts hand-selected from certified partner farms across Tamil Nadu's rich agricultural regions. Our agronomists work directly with growers to ensure optimal harvest timing, variety selection, and sustainable farming practices that preserve soil health and fruit quality.",
+      "Premium coconuts hand-selected from certified partner farms across Tamil Nadu. Our agronomists ensure optimal harvest timing, variety selection, and quality from source.",
     businessValue:
       "Buyers benefit from direct farm relationships that eliminate intermediaries, ensuring complete traceability from grove to global buyer and competitive pricing from source.",
     qualityRelevance:
@@ -63,7 +63,7 @@ export const supplyChainSteps: SupplyChainStep[] = [
     step: 2,
     title: "Quality Processing",
     description:
-      "Hygienic processing at ISO 22000 and HACCP certified facilities with rigorous quality control at every stage. Products are cleaned, sorted, graded, and prepared according to strict export standards under the supervision of trained quality assurance personnel.",
+      "Hygienic processing at ISO 22000 and HACCP certified facilities. Products are cleaned, sorted, graded, and prepared to strict export standards by trained QA personnel.",
     businessValue:
       "Commercial partners receive products processed under internationally certified food safety protocols — protecting supply chain reputation and ensuring import compliance.",
     qualityRelevance:
@@ -74,7 +74,7 @@ export const supplyChainSteps: SupplyChainStep[] = [
     step: 3,
     title: "Packaging & Grading",
     description:
-      "Careful grading, sorting and export-grade packaging to maintain freshness and meet international standards. Multiple packaging configurations available — from ventilated mesh bags for whole coconuts to vacuum-sealed blocks for coco peat — tailored to destination market requirements and transit conditions.",
+      "Export-grade packaging to maintain freshness — from ventilated mesh bags for whole coconuts to compressed blocks for coco peat. Tailored to destination market requirements.",
     businessValue:
       "Importers benefit from flexible packaging configurations that reduce secondary handling costs and ensure products arrive in optimal condition at destination.",
     qualityRelevance:
@@ -85,7 +85,7 @@ export const supplyChainSteps: SupplyChainStep[] = [
     step: 4,
     title: "Global Shipping",
     description:
-      "Efficient container loading and shipping through major Indian ports with real-time tracking for every consignment. Our logistics team coordinates with leading shipping lines including Maersk, MSC, and CMA CGM to secure competitive freight rates and reliable schedules to ports across the Middle East, Europe, the Americas, and Asia-Pacific.",
+      "Container loading and shipping through major Indian ports with real-time tracking. We partner with Maersk, MSC, and CMA CGM for competitive freight and reliable schedules worldwide.",
     businessValue:
       "Commercial partners achieve lower total landed cost through consolidated logistics, competitive freight rates, and complete documentation support included with every shipment.",
     qualityRelevance:

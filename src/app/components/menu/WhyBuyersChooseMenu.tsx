@@ -26,7 +26,7 @@ const benefits: BenefitItem[] = [
     ),
     title: "Quality Assurance",
     description:
-      "ISO 22000 and HACCP certified quality management — every shipment undergoes multi-stage inspection from farm-level screening to pre-shipment container loading verification. Full traceability and documentation included.",
+      "ISO 22000 and HACCP certified — every shipment undergoes multi-stage inspection from farm screening to pre-shipment verification. Full traceability included.",
     stat: { value: "4", label: "Inspection Stages" },
   },
   {
@@ -37,7 +37,7 @@ const benefits: BenefitItem[] = [
     ),
     title: "Export Ready Packaging",
     description:
-      "Multiple packaging configurations tailored to destination climate and transit conditions — from ventilated mesh bags for whole coconuts to moisture-proof PP bags for copra and compressed blocks for coco peat. Private labelling available.",
+      "Multiple packaging options for every climate and transit condition — ventilated mesh bags, moisture-proof bags, compressed blocks, and private labelling.",
     stat: { value: "5+", label: "Packaging Formats" },
   },
   {
@@ -48,7 +48,7 @@ const benefits: BenefitItem[] = [
     ),
     title: "Global Shipping Support",
     description:
-      "End-to-end logistics from three major Indian port corridors — Chennai, Tuticorin, and Nhava Sheva. FOB, CIF, and CFR terms with full documentation including Bill of Lading, Certificate of Origin, and Phytosanitary certification.",
+      "End-to-end logistics from Chennai, Tuticorin, and Nhava Sheva. FOB, CIF, and CFR terms with full export documentation.",
     stat: { value: "3", label: "Port Corridors" },
   },
   {
@@ -59,7 +59,7 @@ const benefits: BenefitItem[] = [
     ),
     title: "Reliable Supply",
     description:
-      "Consistent year-round supply through multiple sourcing regions and partner farms across Tamil Nadu's prime coconut belt. 200+ certified partner farms ensure supply stability even during seasonal fluctuations affecting spot markets.",
+      "Year-round supply from 200+ certified partner farms across Tamil Nadu's prime coconut belt. Stable supply even during seasonal fluctuations.",
     stat: { value: "200+", label: "Partner Farms" },
   },
 ];

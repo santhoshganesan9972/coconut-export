@@ -18,9 +18,9 @@ export const products: Product[] = [
     name: "Fresh Brown Coconut",
     subtitle: "Grade A — Premium Export Quality",
     shortDescription:
-      "Semi-husked mature coconuts suitable for wholesale distribution and food processing.",
+      "Premium semi-husked brown coconuts for wholesale distribution and food processing. Consistent size, weight, and export-grade quality.",
     description:
-      "Our premium semi-husked brown coconuts are carefully harvested at peak maturity from certified farms across Tamil Nadu's prime coconut belt. Each coconut is hand-selected for uniform size, weight, and freshness before undergoing a thorough cleaning and grading process at our ISO 22000 certified facility. The result is a consistently high-quality product that meets the demanding standards of international importers, wholesale distributors, and food processing companies worldwide. With a controlled moisture retention protocol and export-grade packaging, these coconuts maintain optimal freshness throughout the supply chain journey to your destination port.",
+      "Harvested at peak maturity from certified farms in Tamil Nadu. Each coconut is hand-selected for uniform size and weight, then graded at our ISO 22000 facility. Export-grade packaging ensures freshness from farm to your port.",
     icon: "coconut",
     highlights: ["MOQ: 1 × 20ft FCL", "Export Grade A", "HACCP Certified", "Uniform Sizing"],
     category: "Whole Coconut",
@@ -78,9 +78,9 @@ export const products: Product[] = [
     name: "Pollachi Fresh Coconut",
     subtitle: "Pollachi Origin — Premium Sweet Water & Thick Kernel",
     shortDescription:
-      "Premium sweet-water coconut sourced exclusively from the famed Pollachi region — renowned for exceptional water content, thick kernel, and distinctive flavour.",
+      "Premium sweet-water coconut from the famed Pollachi region. Exceptional water content, thick kernel, and distinctive flavour.",
     description:
-      "Sourced exclusively from the famed Pollachi region — often called the 'Coconut Capital of Tamil Nadu' — these premium sweet-water coconuts are renowned for their exceptional water content, rich flavour profile, thick white kernel, and superior nutritional value. The unique microclimate, mineral-rich soil, and traditional cultivation practices of Pollachi impart a distinctive sweetness and robust kernel thickness that sets these coconuts apart in international markets. Each coconut is harvested at the optimal stage of maturity when the water-to-kernel ratio is at its peak, carefully husked by skilled artisans, and packed within hours to preserve the natural sweetness, freshness, and kernel integrity. Ideal for premium retail chains, hospitality groups, health-conscious importers, and food processors seeking distinctive product differentiation with authentic origin certification.",
+      "Sourced from Pollachi — the 'Coconut Capital of Tamil Nadu'. Renowned for sweet water, thick white kernel, and superior nutritional value. Harvested at optimal maturity and packed within hours to preserve freshness. Ideal for premium retail and hospitality.",
     icon: "coconut",
     highlights: ["MOQ: 1 × 20ft FCL", "Pollachi Origin Certified", "Premium Sweet Water", "Thick Kernel"],
     category: "Whole Coconut",
@@ -138,9 +138,9 @@ export const products: Product[] = [
     name: "High Grade Coconut",
     subtitle: "Triple-A Quality — Precision Calibrated for Wholesale",
     shortDescription:
-      "Premium selection of meticulously calibrated, uniform-size coconuts with triple-A export quality — designed for discerning wholesale buyers and premium retail programmes.",
+      "Precision-calibrated, uniform-size coconuts with triple-A export quality. Designed for wholesale buyers and premium retail.",
     description:
-      "Our High Grade Coconut represents the pinnacle of export-quality coconut production — meticulously calibrated to meet the most stringent international specifications. Every coconut in this premium selection undergoes a rigorous multi-stage process: initial farm-level screening by trained agronomists, precision weight calibration to ±5g tolerance, optical size sorting through calibrated grading rings, shell integrity inspection under controlled lighting, and a final quality verification by senior graders. Only coconuts that pass all five stages earn the High Grade designation. The result is a product with exceptional uniformity in size, weight, and appearance — plus an extended shelf life from superior husk treatment and controlled pre-shipment drying. Commands premium pricing in sophisticated wholesale markets across the Middle East, Europe, and North America. Perfect for high-end retail programmes, hotel supply chains, and discerning importers who demand nothing less than the best.",
+      "Meticulously graded through a five-stage process: farm screening, weight calibration (±5g), optical size sorting, shell integrity inspection, and final verification. Exceptional uniformity in size, weight, and appearance. Extended shelf life from superior husk treatment.",
     icon: "coconut",
     highlights: ["Triple-A Quality", "±5g Precision Calibrated", "100% Shell Integrity", "Wholesale Ready"],
     category: "Whole Coconut",
@@ -198,9 +198,9 @@ export const products: Product[] = [
     name: "Copra Coconut",
     subtitle: "Industrial Grade — 65–68% Oil Content for Extraction",
     shortDescription:
-      "High oil-yield dried coconut kernels processed under controlled HACCP conditions — ideal for industrial oil extraction and manufacturing applications.",
+      "High oil-yield dried coconut kernels processed under HACCP conditions. Ideal for industrial oil extraction and manufacturing.",
     description:
-      "Our premium copra is produced from selected mature coconuts dried under precisely controlled conditions to achieve the optimal moisture content of ≤6%, ensuring maximum oil yield and long-term storage stability for industrial buyers. The drying process follows strict HACCP protocols with continuous digital monitoring of temperature, humidity, and airflow across multiple drying chambers — preventing mould development while preserving the natural oil integrity. Each batch is tested for oil content, moisture, free fatty acids (FFA <2%), and aflatoxin levels before shipment approval. Our copra consistently delivers 65–68% oil content with a clean, uniform colour and low impurity rate, making it the preferred choice for industrial oil millers, edible oil refiners, soap manufacturers, oleochemical processors, and food manufacturing companies across global markets. Available in both FCL and LCL configurations with flexible packaging options including 50kg PP bags and 1 MT jumbo bags.",
+      "Premium copra dried to ≤6% moisture for maximum oil yield (65–68%) and long storage stability. HACCP-monitored drying with digital temperature and humidity control. Tested for oil content, moisture, FFA (<2%), and aflatoxin. FCL and LCL available.",
     icon: "copra",
     highlights: ["Oil Content: 65–68%", "Moisture ≤6%", "FFA <2% Premium Grade", "FCL & LCL"],
     category: "Processed Commodity",
@@ -258,9 +258,9 @@ export const products: Product[] = [
     name: "Coco Peat",
     subtitle: "Horticultural Grade — Low EC <0.5 mS/cm for Hydroponics",
     shortDescription:
-      "Premium low-EC compressed coco peat blocks and briquettes — optimised for hydroponics, greenhouse cultivation, and professional horticulture.",
+      "Low-EC compressed coco peat blocks for hydroponics, greenhouse cultivation, and professional horticulture.",
     description:
-      "Our premium coco peat is manufactured from carefully aged coconut husk pith using a multi-stage controlled washing and buffering process that achieves an exceptionally low electrical conductivity of <0.5 mS/cm — essential for sensitive horticultural applications including seed germination, hydroponic systems, greenhouse cultivation, and tissue culture propagation. Each batch undergoes rigorous laboratory testing for pH, EC, buffering capacity, and physical expansion properties before compression into dense blocks and briquettes. The compression process reduces shipping volume by up to 80%, with each block expanding to 5–6 times its compressed size when hydrated — delivering exceptional logistics efficiency for commercial growers and agricultural distributors worldwide. Available with optional nutrient pre-fortification, custom compression ratios from 3:1 to 7:1, and private labelling programmes for distributor brands targeting professional horticulture markets.",
+      "Manufactured from aged coconut husk pith with multi-stage washing for EC <0.5 mS/cm. Ideal for seed germination, hydroponics, and tissue culture. Compressed blocks expand 5–6× when hydrated, reducing shipping volume by 80%. Custom compression and private labelling available.",
     icon: "peat",
     highlights: ["EC: <0.5 mS/cm", "pH 5.5–6.5", "5–6× Expansion", "Hydroponic Grade"],
     category: "Agricultural Input",

@@ -18,7 +18,7 @@ const benefits = [
     ),
     title: "Dedicated Export Support",
     description:
-      "A single point of contact manages your account from inquiry to delivery — ensuring consistent communication and personalized service throughout the entire procurement cycle.",
+      "A single contact manages your account from inquiry to delivery — consistent communication, personalized service.",
     stat: { value: "24h", label: "Response Time" },
   },
   {
@@ -29,7 +29,7 @@ const benefits = [
     ),
     title: "Logistics Guidance",
     description:
-      "Expert advice on shipping routes, freight options, container optimization, and port operations — helping you reduce landed costs and avoid common documentation pitfalls.",
+      "Advice on shipping routes, freight, container optimization, and ports — reducing landed costs and avoiding pitfalls.",
     stat: { value: "3", label: "Port Corridors" },
   },
   {
@@ -38,9 +38,9 @@ const benefits = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-.702 3.142 3.745 3.745 0 01-3.142.702 3.745 3.745 0 01-3.068 1.593c-1.268 0-2.39-.63-3.068-1.593a3.745 3.745 0 01-3.142-.702 3.745 3.745 0 01-.702-3.142A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 01.702-3.142 3.745 3.745 0 013.142-.702A3.745 3.745 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.745 3.745 0 013.142.702 3.745 3.745 0 01.702 3.142A3.745 3.745 0 0121 12z" />
       </svg>
     ),
-    title: "Technical Product Specifications",
+    title: "Technical Specifications",
     description:
-      "Receive detailed product datasheets including grade classifications, moisture content, oil yield, sizing charts, and packaging configurations tailored to your market requirements.",
+      "Detailed datasheets with grades, moisture content, oil yield, sizing, and packaging for your market.",
     stat: { value: "5", label: "Product Grades" },
   },
   {
@@ -51,7 +51,7 @@ const benefits = [
     ),
     title: "Bulk Pricing Assistance",
     description:
-      "Get competitive volume-based pricing with transparent cost breakdowns. Our team helps you optimize order configurations to achieve the best value per unit.",
+      "Competitive volume pricing with transparent breakdowns. We help you optimize orders for best value.",
     stat: { value: "500+", label: "Containers" },
   },
   {
@@ -62,7 +62,7 @@ const benefits = [
     ),
     title: "Documentation Support",
     description:
-      "Complete export documentation management — Certificate of Origin, Phytosanitary Certificate, Bill of Lading, Packing List, and customs declarations — all handled by our team.",
+      "We handle all export docs — Certificate of Origin, Phytosanitary, Bill of Lading, Packing List, and customs declarations.",
     stat: { value: "100%", label: "Docs Accuracy" },
   },
 ];
@@ -178,8 +178,7 @@ export default function RFQBenefits() {
             <span className="text-[#D4A017]">Price</span>
           </h2>
           <p className="mt-4 text-gray-500 text-sm md:text-base leading-relaxed">
-            When you request a quotation from Global Coco Exports, you gain
-            access to a complete export partnership — not just a price list.
+            Get a complete export partnership — not just a price list.
           </p>
         </motion.div>
 
@@ -213,17 +212,17 @@ export default function RFQBenefits() {
               {
                 icon: "🏛️",
                 title: "Trusted by Importers",
-                desc: "Long-term relationships with buyers across 15+ countries",
+                desc: "Long-term partnerships in 15+ countries",
               },
               {
                 icon: "📄",
                 title: "Transparent Pricing",
-                desc: "Itemized quotations with no hidden fees or surprises",
+                desc: "Itemized quotes, no hidden fees",
               },
               {
                 icon: "🔒",
                 title: "Secure Communication",
-                desc: "All enquiries handled confidentially by senior export team",
+                desc: "Confidential handling by senior export team",
               },
             ].map((item) => (
               <div

@@ -22,8 +22,7 @@ export default function ApplicationsSection({ product }: { product: Product }) {
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-[#111827] leading-tight tracking-[-0.02em]">
             Common <span className="text-[#1B4332]">Use Cases</span>
-          </h2>
-          <p className="mt-4 text-[#6B7280] text-sm max-w-lg mx-auto">Where our {product.name} is typically used across global markets.</p>
+          </h2>            <p className="mt-4 text-[#6B7280] text-sm max-w-lg mx-auto">Common applications for {product.name} across global markets.</p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">

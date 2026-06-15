@@ -19,7 +19,7 @@ const strengths = [
     ),
     label: "Coconut Industry Expertise",
     description:
-      "Over a decade of specialized experience in the global coconut trade. Our team understands the nuances of coconut varieties, harvest cycles, quality grading, and market dynamics across producing regions.",
+      "10+ years in global coconut trade. Deep knowledge of coconut varieties, harvest cycles, quality grading, and market dynamics across producing regions.",
   },
   {
     icon: (
@@ -29,7 +29,7 @@ const strengths = [
     ),
     label: "Supply Chain Knowledge",
     description:
-      "Deep understanding of end-to-end coconut supply chains — from farm-level sourcing and post-harvest handling to container optimization, port logistics, and international shipping documentation.",
+      "End-to-end expertise from farm sourcing and post-harvest handling to container optimization, port logistics, and international shipping documentation.",
   },
   {
     icon: (
@@ -39,7 +39,7 @@ const strengths = [
     ),
     label: "Export Readiness",
     description:
-      "Fully equipped for international trade with ISO 22000 and HACCP certified processing, APEDA registration, and established relationships with shipping lines, freight forwarders, and customs brokers across major Indian ports.",
+      "ISO 22000 & HACCP certified, APEDA registered. Established relationships with shipping lines, freight forwarders, and customs brokers across major Indian ports.",
   },
   {
     icon: (
@@ -49,7 +49,7 @@ const strengths = [
     ),
     label: "Long-Term Partnerships",
     description:
-      "Built on trust, consistency, and performance. Many of our buyer relationships span multiple years — a testament to our reliability in quality, delivery, and communication across time zones and cultures.",
+      "Built on trust and consistency. Many buyer relationships span years — a testament to our reliability in quality, delivery, and communication.",
   },
 ];
 
@@ -92,19 +92,17 @@ export default function AboutWhoWeAre() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] leading-tight">
             A Export Partner Built for{" "}
             <span className="text-[#D4A017]">Scale</span>
-          </h2>
-          
-          <div className="mt-8 grid md:grid-cols-2 gap-8 text-left">
+          </h2>              <div className="mt-8 grid md:grid-cols-2 gap-8 text-left">
             <div className="p-6 bg-[#FAFAFA] rounded-2xl border-l-4 border-[#D4A017]">
               <span className="text-[10px] font-bold uppercase tracking-widest text-[#D4A017] mb-2 block">Our Mission</span>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Global Coco Exports bridges the gap between farm-level production and international buyers through structured sourcing, certified processing, and reliable logistics.
+                We bridge farm-level production and international buyers through structured sourcing, certified processing, and reliable logistics.
               </p>
             </div>
             <div className="p-6 bg-[#FAFAFA] rounded-2xl border-l-4 border-[#1B4332]">
               <span className="text-[10px] font-bold uppercase tracking-widest text-[#1B4332] mb-2 block">Strategic Origin</span>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Headquartered in Tamil Nadu, India — the heart of India&apos;s coconut belt — providing direct access to the finest raw materials and major export ports.
+                Headquartered in Tamil Nadu — the heart of India&apos;s coconut belt — giving us direct access to the finest raw materials and major export ports.
               </p>
             </div>
           </div>

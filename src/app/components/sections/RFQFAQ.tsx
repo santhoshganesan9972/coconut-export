@@ -9,57 +9,57 @@ const faqs = [
   {
     question: "How soon will I receive a quotation?",
     answer:
-      "Our export team reviews all RFQ submissions within 24 business hours. You can expect a detailed commercial quotation — including product pricing, shipping costs, and delivery timelines — within one to two business days. Complex or multi-product enquiries may require additional time for accurate pricing, and we will keep you informed throughout the process.",
+      "We review all RFQ submissions within 24 business hours and provide a detailed quotation including pricing, shipping, and delivery timelines within 1–2 business days.",
   },
   {
     question: "What is the minimum order quantity?",
     answer:
-      "Minimum order quantities vary by product. For Fresh Brown Coconuts and Pollachi Fresh Coconuts, the typical MOQ is 1 × 20ft FCL (approximately 24,000–25,000 nuts). For Copra, the MOQ is 1 × 20ft FCL (≈18 MT). For Coco Peat, the MOQ is 1 × 20ft FCL (≈500 blocks). We can accommodate smaller trial orders or LCL shipments on a case-by-case basis for qualified new buyers. Contact our team to discuss your specific volume requirements.",
+      "MOQs vary by product: Fresh Coconuts ~1 × 20ft FCL (24,000–25,000 nuts), Copra ~18 MT, Coco Peat ~500 blocks. Smaller trial orders available for qualified buyers on request.",
   },
   {
     question: "Can you support international shipping?",
     answer:
-      "Yes. We ship to ports worldwide from three major Indian port corridors — Chennai, Tuticorin (VOC Port), and Nhava Sheva (JNPT). Our logistics team handles all aspects of international shipping: container booking, freight negotiation, customs clearance, and documentation. We work with leading shipping lines to offer competitive freight rates across the Middle East, Europe, the Americas, Africa, and Asia-Pacific regions. We can ship under FOB, CIF, or CFR incoterms based on your preference.",
+      "Yes — we ship worldwide from Chennai, Tuticorin, and Nhava Sheva ports. We handle container booking, freight, customs, and docs with FOB, CIF, or CFR terms.",
   },
   {
     question: "Can you provide technical specifications?",
     answer:
-      "Absolutely. Every quotation includes detailed product specifications tailored to your requirements. Our technical datasheets cover: product grade classification, size and weight ranges, moisture content, oil yield (for copra), expansion ratio (for coco peat), packaging configurations, shelf life estimates, and storage recommendations. We can also provide laboratory test reports, nutritional analysis, and food safety documentation upon request.",
+      "Yes — every quote includes detailed specs covering grades, size, moisture content, oil yield, packaging, and storage recommendations. Lab reports and nutritional analysis available on request.",
   },
   {
     question: "Can you provide export documentation?",
     answer:
-      "Yes. We provide complete export documentation for every shipment, including: Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin, Phytosanitary Certificate, Health Certificate, Fumigation Certificate (as required), and any destination-specific customs documentation. Our documentation team ensures all paperwork complies with both Indian export regulations and your destination country's import requirements.",
+      "Yes — we provide Bill of Lading, Invoice, Packing List, Certificate of Origin, Phytosanitary Certificate, and destination-specific customs docs for every shipment.",
   },
   {
     question: "Do you offer product samples before bulk orders?",
     answer:
-      "Yes, we can arrange product samples for serious buyers. Samples are available for all our product categories and can be shipped via international courier to your business address. Sample costs and shipping charges may apply, which are typically deducted from the first bulk order. Contact our team to request samples for your quality evaluation.",
+      "Yes — samples available for all product categories. Costs are typically deducted from your first bulk order.",
   },
   {
     question: "What payment terms do you accept?",
     answer:
-      "We accept multiple payment methods structured for international trade. The most common options are: Letter of Credit (LC) — irrevocable, confirmed LC at sight from a major bank; Telegraphic Transfer (TT) — advance payment or partial advance with balance against shipping documents; and Document Against Payment (DP) — for established buyer relationships. Payment terms are negotiated based on the incoterm selected, order volume, and buyer history. Our team can structure terms that align with your trade finance preferences and risk management requirements.",
+      "We accept LC (confirmed at sight), TT (advance or partial against documents), and DP for established relationships. Terms negotiated based on incoterm, volume, and buyer history.",
   },
   {
     question: "Can I place trial orders before committing to full container loads?",
     answer:
-      "Yes, we accommodate trial orders for qualified new buyers. Trial orders can be arranged as LCL (Less than Container Load) consolidated shipments or smaller palletized quantities, depending on the product category. For Fresh Brown Coconuts and Pollachi Coconuts, we can arrange sample quantities via air freight or courier for product evaluation. For Copra and Coco Peat, LCL shipments are available. Volume pricing for trial orders is structured transparently, and we provide a clear cost comparison against FCL pricing so you can plan your scale-up with full cost visibility.",
+      "Yes — trial orders available as LCL or smaller quantities. We provide transparent cost comparison against FCL pricing so you can plan your scale-up.",
   },
   {
     question: "Do you offer credit terms for established buyers?",
     answer:
-      "Yes, credit terms are available for buyers with established trading history and verified business credentials. Options include: 30–60 day credit terms post shipment after a qualifying order history; deferred LC terms with extended usance periods; and structured payment plans for long-term volume commitments. Credit terms are assessed on a case-by-case basis considering buyer profile, order volume consistency, market reputation, and trade references. Our finance team can discuss suitable arrangements during the quotation process.",
+      "Yes — 30–60 day terms post-shipment, deferred LC, and structured plans available for established buyers with verified credentials.",
   },
   {
     question: "How are pricing adjustments handled for long-term contracts?",
     answer:
-      "For long-term supply agreements, pricing is typically structured with defined validity periods (30–90 days) and quarterly or semi-annual review mechanisms tied to observable market benchmarks. Our standard approach includes: initial price valid for the agreed contract period; price adjustment formulas based on published coconut commodity indices; volume-based tier pricing with discounts for increased commitment; and force majeure provisions for extraordinary market events. We believe in transparent pricing partnerships and will walk you through the adjustment mechanism during contract discussions.",
+      "Long-term contracts use 30–90 day validity with quarterly or semi-annual reviews tied to coconut commodity indices. Volume-based tier pricing with transparent adjustment mechanisms.",
   },
   {
     question: "Do you offer long-term supply contracts?",
     answer:
-      "Yes. We offer annual and multi-year supply contracts for importers, distributors, and industrial buyers with consistent volume requirements. Long-term contracts provide: guaranteed supply allocation and priority during peak seasons; locked-in pricing with defined adjustment mechanisms; dedicated account management and priority communication; and coordinated logistics planning for just-in-time delivery schedules. Contract structures are customized to your volume projections, quality specifications, and delivery cadence. Contact our team to discuss a long-term supply partnership.",
+      "Yes — annual and multi-year contracts available. Includes guaranteed supply, locked-in pricing with adjustments, dedicated account management, and coordinated logistics. Contact us to discuss.",
   },
 ];
 
@@ -209,8 +209,7 @@ export default function RFQFAQ() {
             Got <span className="text-[#D4A017]">Questions?</span>
           </h2>
           <p className="mt-4 text-gray-500 text-sm md:text-base leading-relaxed">
-            Find answers to common questions about our RFQ process, minimum
-            order quantities, shipping, and documentation.
+            Quick answers about our RFQ process, MOQs, shipping, and documentation.
           </p>
         </motion.div>
 

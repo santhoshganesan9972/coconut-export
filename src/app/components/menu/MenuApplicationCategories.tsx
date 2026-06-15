@@ -24,7 +24,7 @@ const applicationCategories: CategoryItem[] = [
     icon: "🍽️",
     title: "Food Industry",
     description:
-      "Premium-grade raw materials for coconut water bottling, desiccated coconut manufacturing, dairy alternatives, and food processing facilities requiring consistent quality at scale. Includes HACCP certified inputs for direct food contact applications.",
+      "HACCP-certified raw materials for coconut water bottling, desiccated coconut manufacturing, dairy alternatives, and large-scale food processing.",
     products: ["Fresh Brown Coconut", "Pollachi Fresh Coconut", "High Grade Coconut"],
     color: "#1B4332",
   },
@@ -32,7 +32,7 @@ const applicationCategories: CategoryItem[] = [
     icon: "🏬",
     title: "Wholesale Distribution",
     description:
-      "Ideal for importers and wholesale distributors supplying retail chains, wet markets, grocery networks, and food service operators across the Middle East, Europe, and Asia with retail-ready packaging and consistent supply.",
+      "For importers and distributors supplying retail chains, grocery networks, and food service in the Middle East, Europe, and Asia.",
     products: ["Fresh Brown Coconut", "Pollachi Fresh Coconut", "High Grade Coconut"],
     color: "#2D7D9A",
   },
@@ -40,7 +40,7 @@ const applicationCategories: CategoryItem[] = [
     icon: "⚗️",
     title: "Oil Processing",
     description:
-      "Industrial-grade copra with 65–68% oil content for edible oil milling, virgin coconut oil production, RBD oil refining, soap manufacturing, and oleochemical processing plants requiring high-yield feedstock with documented quality parameters.",
+      "Industrial-grade copra with 65–68% oil content for oil milling, virgin coconut oil production, soap manufacturing, and oleochemical processing.",
     products: ["Copra Coconut"],
     color: "#8B6914",
   },
@@ -48,7 +48,7 @@ const applicationCategories: CategoryItem[] = [
     icon: "🌱",
     title: "Agriculture & Horticulture",
     description:
-      "Low-EC coco peat for hydroponic systems, greenhouse cultivation, seed germination, tissue culture propagation, and professional nursery operations — providing optimal water retention and structural aeration for healthy root development.",
+      "Low-EC coco peat for hydroponic systems, greenhouse cultivation, seed germination, and professional nursery operations.",
     products: ["Coco Peat"],
     color: "#2d6a4f",
   },
@@ -56,7 +56,7 @@ const applicationCategories: CategoryItem[] = [
     icon: "🌐",
     title: "Export Trading",
     description:
-      "Complete product portfolio for commodity trading firms and export houses seeking a reliable supply partner with established certifications, multi-port logistics infrastructure, and end-to-end documentation support across 15+ markets.",
+      "Complete product portfolio for trading firms and export houses — reliable supply, multi-port logistics, and documentation support across 15+ markets.",
     products: ["Fresh Brown Coconut", "Copra Coconut", "Coco Peat"],
     color: "#9B59B6",
   },

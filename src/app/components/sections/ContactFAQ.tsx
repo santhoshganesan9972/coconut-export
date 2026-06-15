@@ -7,35 +7,35 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     q: "How quickly do you respond to inquiries?",
-    a: "We typically respond within 24 hours on email and within 2 hours on WhatsApp. Urgent inquiries received before 2:00 PM IST are often answered the same business day. For out-of-hours submissions, we respond at the start of the next business day.",
+    a: "We respond within 24 hours on email and within 2 hours on WhatsApp. Urgent inquiries before 2:00 PM IST are often answered the same day. Out-of-hours submissions get priority attention next business day.",
   },
   {
     q: "Can I request product specifications before placing an order?",
-    a: "Absolutely. We provide detailed technical specifications, quality parameters, and product certifications for all our coconut products — including moisture content, oil content, grading standards, and packaging options. Simply submit your inquiry and our team will share the relevant documentation.",
+    a: "Yes. We provide detailed specifications, quality parameters, and certifications for all products — including moisture content, oil content, grading standards, and packaging options. Submit your inquiry and we'll share the documentation.",
   },
   {
     q: "Can I schedule a consultation with your export team?",
-    a: "Yes. We offer consultation calls for serious buyers to discuss product selection, volumes, shipping terms, and documentation requirements. Consultations can be scheduled via email or WhatsApp during business hours.",
+    a: "Yes. We offer consultation calls to discuss product selection, volumes, shipping terms, and documentation. Schedule via email or WhatsApp during business hours.",
   },
   {
     q: "Can you support international shipments?",
-    a: "Yes. We export to buyers across the Middle East, Europe, North America, and Asia-Pacific. We handle FOB, CIF, and CFR terms from Chennai, Tuticorin, and Nhava Sheva ports. Full documentation and customs clearance support is included.",
+    a: "Yes — to the Middle East, Europe, North America, and Asia-Pacific. We handle FOB, CIF, and CFR terms from Chennai, Tuticorin, and Nhava Sheva ports. Full documentation included.",
   },
   {
     q: "Do you provide samples for quality evaluation?",
-    a: "Yes, we can arrange product samples for serious buyers. Sample costs and shipping arrangements can be discussed with our export team. Sample requests are typically processed within 3–5 business days.",
+    a: "Yes, we can arrange samples for serious buyers. Costs and shipping can be discussed with our team. Requests are processed within 3–5 business days.",
   },
   {
     q: "What payment terms do you accept?",
-    a: "We accept multiple payment methods for international trade including Letter of Credit (LC) at sight, Telegraphic Transfer (TT) — advance or against documents, and Documents Against Payment (DP) for established relationships. Payment terms are negotiated based on the order value, incoterm selected, and buyer history. Our team can advise on the most suitable structure for your procurement and trade finance requirements.",
+    a: "We accept Letter of Credit (LC), Telegraphic Transfer (TT), and Documents Against Payment (DP) for established relationships. Terms are negotiated based on order value and buyer history.",
   },
   {
     q: "Can I place trial orders before committing to bulk volumes?",
-    a: "Yes, we accommodate trial orders for qualified buyers evaluating our products for the first time. Trial quantities can be arranged via LCL container consolidation, palletized shipments, or sample courier depending on the product category and destination. Pricing for trial orders is transparent, and we provide a comparison against FCL volume pricing so you can plan your procurement scale-up with full cost visibility.",
+    a: "Yes — via LCL consolidation, palletized shipments, or sample courier depending on the product. Pricing is transparent, and we provide a comparison against FCL volume pricing for easy scale-up planning.",
   },
   {
     q: "What is the minimum order quantity for your products?",
-    a: "Minimum order quantities vary by product category. For Fresh Brown Coconut and Pollachi Fresh Coconut, the standard MOQ is 1 × 20ft FCL (approximately 24,000–25,000 nuts). For Copra, the MOQ is 1 × 20ft FCL (≈18 MT). For Coco Peat, the MOQ is 1 × 20ft FCL (≈500 blocks). We can discuss flexibility for trial orders and LCL shipments on a case-by-case basis. Contact our team to discuss your specific volume requirements.",
+    a: "MOQ varies by product: Fresh Coconut (1 × 20ft FCL ≈ 24,000–25,000 nuts), Copra (1 × 20ft FCL ≈ 18 MT), Coco Peat (1 × 20ft FCL ≈ 500 blocks). Trial orders and LCL shipments available on request.",
   },
 ];
 

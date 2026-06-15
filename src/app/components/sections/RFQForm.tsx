@@ -849,8 +849,7 @@ export default function RFQForm() {
             <span className="text-[#D4A017]">Need</span>
           </h2>
           <p className="mt-4 text-gray-500 text-sm md:text-base leading-relaxed">
-            Complete the form below and our export team will prepare a
-            customized quotation within 24 hours.
+            Fill in the form — we'll prepare a customized quotation within 24 hours.
           </p>
         </motion.div>
 

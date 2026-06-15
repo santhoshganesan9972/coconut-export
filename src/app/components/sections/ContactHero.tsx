@@ -68,8 +68,8 @@ export default function ContactHero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-5 text-green-200/60 text-base sm:text-lg leading-relaxed max-w-xl"
             >
-              Speak with our specialists regarding product sourcing, logistics planning,
-              quotations, and export requirements.
+              Ready to source premium coconut products? Our export team is here to help with
+              quotations, logistics, and documentation.
             </motion.p>
 
             {/* Trust indicators */}

@@ -72,7 +72,7 @@ export default function AboutCertifications() {
           transition={{ duration: 0.45, ease: "easeOut" }}
           className="text-center text-[10px] uppercase tracking-[0.28em] text-[#D4A017]/70 font-semibold mb-6"
         >
-          Internationally Recognised Certifications
+          Our Certifications &amp; Accreditations
         </motion.p>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/[0.07] rounded-lg overflow-hidden border border-white/[0.08]">
@@ -113,7 +113,7 @@ export default function AboutCertifications() {
           className="flex flex-wrap items-center justify-center gap-4 mt-6"
         >
           <span className="text-[10px] text-white/25 tracking-[0.12em] uppercase">
-            All certifications independently audited &amp; regularly renewed
+            Independently audited &amp; regularly renewed
           </span>
           <span className="text-white/10 text-[10px] hidden sm:inline">|</span>
           <a

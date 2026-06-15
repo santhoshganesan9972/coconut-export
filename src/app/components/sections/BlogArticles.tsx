@@ -5,9 +5,8 @@ import { useRef } from "react";
 
 const featured = {
   title: "How Fresh Brown Coconuts Are Exported",
-  category: "Export Guides",
-  excerpt:
-    "A complete walkthrough of the fresh brown coconut export process — from farm selection and harvesting to processing, container loading, and international shipping. Learn what export-grade quality means and how shipments are prepared for global markets.",
+  category: "Export Guides",    excerpt:
+      "A complete walkthrough of the fresh brown coconut export process — from farm selection and harvesting to container loading and international shipping.",
   image: "/images/storytelling/CONTAINER LOADING-image.png",
   readTime: "8 min read",
 };
@@ -17,35 +16,35 @@ const articles = [
     title: "Understanding FOB vs CIF in Coconut Trade",
     category: "Export Guides",
     excerpt:
-      "A clear breakdown of Free On Board (FOB) versus Cost, Insurance & Freight (CIF) incoterms — helping international buyers choose the right shipping terms for their coconut imports.",
+      "A breakdown of FOB versus CIF incoterms — helping buyers choose the right shipping terms for their coconut imports.",
     readTime: "5 min read",
   },
   {
     title: "How Coco Peat Supports Sustainable Agriculture",
     category: "Industry News",
     excerpt:
-      "Explore how coco peat is transforming horticulture as a renewable, biodegradable growing medium. Learn about its water retention properties and role in sustainable farming.",
+      "How coco peat is transforming horticulture as a renewable, biodegradable growing medium with excellent water retention properties.",
     readTime: "6 min read",
   },
   {
     title: "Global Coconut Market Trends",
     category: "Market Insights",
     excerpt:
-      "An analysis of current coconut market dynamics including demand shifts across regions, price trends, and emerging export opportunities for supplier countries.",
+      "Analysis of coconut market dynamics including regional demand shifts, price trends, and emerging export opportunities.",
     readTime: "7 min read",
   },
   {
     title: "Export Documentation Explained",
     category: "Logistics",
     excerpt:
-      "A practical guide to the essential export documents every coconut shipment requires — from Bill of Lading to Phytosanitary Certificate and Certificate of Origin.",
+      "A practical guide to the essential export documents every coconut shipment requires — from Bill of Lading to Phytosanitary Certificate.",
     readTime: "6 min read",
   },
   {
     title: "Quality Assurance in Coconut Export",
     category: "Quality Assurance",
     excerpt:
-      "How multi-stage quality inspection ensures every coconut shipment meets international standards. From farm-level screening to pre-shipment container inspection.",
+      "How multi-stage quality inspection ensures every coconut shipment meets international standards — from farm screening to pre-shipment inspection.",
     readTime: "5 min read",
   },
 ];

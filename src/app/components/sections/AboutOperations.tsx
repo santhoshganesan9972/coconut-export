@@ -10,7 +10,7 @@ const operationsSteps = [
     step: 1,
     title: "Farm Sourcing",
     description:
-      "Premium coconuts hand-selected from certified partner farms across Tamil Nadu's prime coconut-growing regions. Our field team works directly with growers to ensure optimal harvest timing and variety selection.",
+      "Hand-selected from certified partner farms across Tamil Nadu. Our field team works directly with growers for optimal harvest timing and variety selection.",
     phase: "Origin",
     businessValue:
       "Direct farm relationships eliminate intermediaries, ensuring traceability and competitive pricing from source.",
@@ -26,7 +26,7 @@ const operationsSteps = [
     step: 2,
     title: "Processing",
     description:
-      "Hygienic processing at our ISO 22000 and HACCP certified facilities. Products are cleaned, sorted, graded, and prepared according to strict export standards under trained quality assurance personnel.",
+      "Cleaned, sorted, graded, and prepared at our ISO 22000 & HACCP certified facilities. Every step follows strict export standards.",
     phase: "Process",
     businessValue:
       "Certified processing guarantees compliance with international food safety standards and import regulations.",
@@ -41,7 +41,7 @@ const operationsSteps = [
     step: 3,
     title: "Quality Control",
     description:
-      "Multi-stage quality inspection at farm intake, processing, and pre-shipment stages. Every batch is checked for size uniformity, weight consistency, moisture content, and visual appearance.",
+      "Inspected at farm intake, processing, and pre-shipment. Every batch checked for size uniformity, weight consistency, moisture content, and visual appearance.",
     phase: "Inspection",
     businessValue:
       "Rigorous QC reduces rejection rates and ensures every shipment meets your contractual specifications.",
@@ -56,7 +56,7 @@ const operationsSteps = [
     step: 4,
     title: "Packaging",
     description:
-      "Export-grade packaging configured to your requirements — from ventilated mesh bags for whole coconuts to vacuum-sealed blocks for coco peat — with custom labelling options available.",
+      "Export-grade packaging to your requirements — from mesh bags for whole coconuts to compressed blocks for coco peat. Custom labelling available.",
     phase: "Pack",
     businessValue:
       "Flexible packaging configurations reduce your secondary handling costs and ensure product arrives in optimal condition.",
@@ -71,7 +71,7 @@ const operationsSteps = [
     step: 5,
     title: "Export Logistics",
     description:
-      "Container booking, freight coordination, customs clearance, and complete documentation management handled in-house. We ship from three major Indian port corridors for routing flexibility.",
+      "Container booking, freight, customs clearance, and documentation managed in-house. We ship from Chennai, Tuticorin, and Nhava Sheva for routing flexibility.",
     phase: "Logistics",
     businessValue:
       "Multi-port strategy and in-house logistics control reduce lead times and provide single-point accountability.",
@@ -86,7 +86,7 @@ const operationsSteps = [
     step: 6,
     title: "Global Delivery",
     description:
-      "Your shipment is delivered to the agreed destination port with real-time tracking, complete documentation, and our team on standby for any last-mile coordination or arrival formalities.",
+      "Delivered to your destination port with real-time tracking and complete documentation. Our team handles last-mile coordination and arrival formalities.",
     phase: "Delivery",
     businessValue:
       "End-to-end visibility and support ensure smooth customs clearance and timely delivery to your warehouse.",

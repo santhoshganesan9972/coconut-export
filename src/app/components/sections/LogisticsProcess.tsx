@@ -8,8 +8,8 @@ import { fadeUp } from "@/constants/animations";
 const processSteps = [
   {
     step: 1, title: "Inquiry", phase: "Step 1",
-    description: "Buyer submits product requirements, volume, destination, and preferred incoterm. Our team reviews and logs the inquiry within 2 business hours.",
-    businessValue: "Structured intake ensures no critical details are missed and accelerates response time.",
+    description: "You submit product requirements, volume, destination, and preferred incoterm. Our team reviews within 2 business hours.",
+    businessValue: "Structured intake ensures no details are missed and speeds up your response.",
     image: "/images/storytelling/INQUIRY-image.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -19,8 +19,8 @@ const processSteps = [
   },
   {
     step: 2, title: "Quotation", phase: "Step 2",
-    description: "Detailed commercial quotation issued within 24 hours — including product pricing, shipping costs, and delivery timeline based on the specified incoterm.",
-    businessValue: "Transparent, itemized pricing enables informed procurement decisions.",
+    description: "Detailed quotation within 24 hours — product pricing, shipping costs, and delivery timeline based on your chosen incoterm.",
+    businessValue: "Itemized pricing for informed procurement decisions.",
     image: "/images/storytelling/QUOTATION-image.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -30,8 +30,8 @@ const processSteps = [
   },
   {
     step: 3, title: "Order Confirmation", phase: "Step 3",
-    description: "Purchase order is received, confirmed, and logged into our production pipeline. Container booking and raw material allocation begin immediately.",
-    businessValue: "Fast confirmation reduces lead time and locks in production slots.",
+    description: "Order received, confirmed, and logged. Container booking and material allocation begin immediately.",
+    businessValue: "Fast confirmation locks in production slots and reduces lead time.",
     image: "/images/storytelling/ORDER CONFIRMATION-imge.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -41,8 +41,8 @@ const processSteps = [
   },
   {
     step: 4, title: "Production & Packaging", phase: "Step 4",
-    description: "Products are processed, graded, and packed according to order specifications. Packaging configurations are verified against buyer requirements.",
-    businessValue: "Tailored packaging ensures product integrity and reduces damage during transit.",
+    description: "Products processed, graded, and packed to your specifications. Packaging verified against your requirements.",
+    businessValue: "Tailored packaging ensures product integrity in transit.",
     image: "/images/storytelling/PRODUCTION & PACKAGING-image.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -52,8 +52,8 @@ const processSteps = [
   },
   {
     step: 5, title: "Container Loading", phase: "Step 5",
-    description: "Pre-cooled containers are loaded at our facility under supervision. Loading is photographed and documented for quality records and pre-shipment inspection.",
-    businessValue: "Supervised loading reduces cargo damage and ensures optimal container utilization.",
+    description: "Containers loaded under supervision. Photographed and documented for quality records and pre-shipment inspection.",
+    businessValue: "Supervised loading minimizes damage and optimizes container space.",
     image: "/images/storytelling/CONTAINER LOADING-image.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -63,8 +63,8 @@ const processSteps = [
   },
   {
     step: 6, title: "Documentation", phase: "Step 6",
-    description: "Complete export documentation package prepared: Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin, Phytosanitary Certificate, and customs clearance.",
-    businessValue: "Comprehensive documentation ensures smooth customs clearance at destination.",
+    description: "Complete documentation: Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin, Phytosanitary Certificate, and customs clearance.",
+    businessValue: "Full documentation for smooth customs clearance at destination.",
     image: "/images/storytelling/QUOTATION-image.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -74,8 +74,8 @@ const processSteps = [
   },
   {
     step: 7, title: "Shipment", phase: "Step 7",
-    description: "Container is gated in at the port, loaded onto the vessel, and departs on schedule. Real-time tracking is shared with the buyer for full visibility.",
-    businessValue: "Real-time tracking and proactive updates eliminate uncertainty during transit.",
+    description: "Container gated in at port, loaded onto vessel, and departs on schedule. Real-time tracking shared with you.",
+    businessValue: "Real-time tracking eliminates uncertainty during transit.",
     image: "/images/storytelling/SHIPMENT-image.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -85,8 +85,8 @@ const processSteps = [
   },
   {
     step: 8, title: "Delivery", phase: "Step 8",
-    description: "Vessel arrives at destination port. Customs clearance is supported with complete documentation. Cargo is discharged and available for buyer's collection or last-mile delivery.",
-    businessValue: "End-to-end logistics management from farm gate to destination port.",
+    description: "Vessel arrives at destination. Customs clearance supported with complete docs. Cargo ready for collection or last-mile delivery.",
+    businessValue: "End-to-end management from farm gate to your port.",
     image: "/images/storytelling/DELIVERY-image.png",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">

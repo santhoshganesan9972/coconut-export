@@ -112,9 +112,8 @@ export default function RFQHero() {
                 variants={fadeUp}
                 className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[620px] font-medium"
               >
-                Receive customized pricing, logistics support, technical
-                specifications, and export consultation for your bulk sourcing
-                requirements.
+                Custom pricing, logistics guidance, specs, and export support
+                for your bulk sourcing needs.
               </motion.p>
 
               {/* ── Trust indicator pills ── */}

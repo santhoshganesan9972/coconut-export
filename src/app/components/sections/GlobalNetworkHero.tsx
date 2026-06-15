@@ -56,14 +56,14 @@ export default function GlobalNetworkHero() {
             </motion.div>
 
             <motion.h1 variants={fadeUp} className="text-[clamp(2.2rem,5vw,3.6rem)] leading-[1.08] tracking-[-0.025em] text-white font-bold">
-              <span className="block">Global Export</span>
+              <span className="block">Coconut Exports</span>
               <span className="block text-[clamp(1.8rem,4vw,3.2rem)] leading-[1.1] tracking-[-0.02em] text-[#D4A017] mt-1">
-                Network
+                Worldwide
               </span>
             </motion.h1>
 
             <motion.p variants={fadeUp} className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[640px] font-medium">
-              Supporting importers, distributors, and industrial buyers across international markets through dependable sourcing, quality assurance, and export-ready logistics.
+              We export premium coconut products to buyers in 15+ countries. Reliable sourcing, quality assurance, and end-to-end logistics from India to your port.
             </motion.p>
 
             <motion.div variants={fadeUp} className="mt-6 flex flex-wrap gap-2">

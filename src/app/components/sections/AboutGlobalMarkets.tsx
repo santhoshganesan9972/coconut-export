@@ -44,7 +44,7 @@ const markets = [
     region: "Middle East",
     flag: "🌍",
     description:
-      "Our strongest market corridor — serving GCC nations with consistent weekly container shipments to Jebel Ali, Dammam, and other major Gulf ports. Deep relationships with importers across the region ensure smooth customs clearance and last-mile distribution.",
+      "Our largest market — weekly container shipments to GCC nations. Deep importer relationships ensure smooth customs clearance and distribution.",
     color: "#D4A017",
     countries: ["UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman", "Bahrain"],
     stat: "Primary market",
@@ -53,7 +53,7 @@ const markets = [
     region: "Europe",
     flag: "🌍",
     description:
-      "Growing demand for organic and premium coconut products across the EU. Our shipments to Rotterdam and Hamburg serve food manufacturers, health food distributors, and retail chains with full compliance to EU phytosanitary and quality standards.",
+      "Growing demand for premium coconut products across the EU. Shipments to Rotterdam and Hamburg with full EU phytosanitary compliance.",
     color: "#4A9E6B",
     countries: ["Germany", "Netherlands", "United Kingdom"],
     stat: "Expanding presence",
@@ -62,7 +62,7 @@ const markets = [
     region: "North America",
     flag: "🌎",
     description:
-      "Strategic partnerships with importers in the USA and Canada serving the natural foods sector, wholesale clubs, and coconut water processors. All shipments comply with FDA import requirements and USDA phytosanitary standards.",
+      "Serving the natural foods sector, wholesale clubs, and processors in the USA and Canada. All shipments comply with FDA and USDA standards.",
     color: "#2D7D9A",
     countries: ["United States", "Canada"],
     stat: "Strategic growth",
@@ -71,7 +71,7 @@ const markets = [
     region: "Asia-Pacific",
     flag: "🌏",
     description:
-      "Fast-growing markets across Southeast Asia, Oceania, and East Asia. Our proximity to regional shipping hubs in Singapore and Port Klang enables rapid transit times and cost-effective logistics for buyers across the Asia-Pacific trade zone.",
+      "Fast-growing markets across Southeast Asia, Oceania, and East Asia. Proximity to Singapore and Port Klang hubs enables rapid transit and cost-effective logistics.",
     color: "#9B59B6",
     countries: ["Malaysia", "Singapore", "Australia", "New Zealand", "South Korea", "Japan"],
     stat: "Rapid growth",

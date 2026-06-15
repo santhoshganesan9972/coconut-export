@@ -9,7 +9,7 @@ const processSteps = [
     step: 1,
     title: "Submit Inquiry",
     description:
-      "Complete our detailed RFQ form with your product requirements, target volume, and shipping preferences. Every detail helps us prepare an accurate quotation.",
+      "Tell us your product, volume, and preferences so we can prepare an accurate quotation.",
     phase: "Inquiry",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -17,13 +17,13 @@ const processSteps = [
       </svg>
     ),
     businessValue:
-      "A detailed inquiry allows us to match you with the right product grade, packaging, and logistics configuration from the start.",
+      "We match you with the right product grade, packaging, and logistics from the start.",
   },
   {
     step: 2,
     title: "Export Consultation",
     description:
-      "Our export team reviews your requirements and reaches out within 24 hours to discuss product specifications, compliance, and logistics planning.",
+      "We review your requirements and reach out within 24 hours to discuss specs, compliance, and logistics.",
     phase: "Consultation",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -31,13 +31,13 @@ const processSteps = [
       </svg>
     ),
     businessValue:
-      "Get expert guidance on incoterms, shipping documentation, and regulatory requirements for your destination market.",
+      "Expert guidance on incoterms, documentation, and regulations for your market.",
   },
   {
     step: 3,
     title: "Receive Quotation",
     description:
-      "You receive a detailed commercial quotation with product pricing, volume discounts, shipping costs, and delivery timelines tailored to your requirements.",
+      "Get a detailed quotation with pricing, volume discounts, shipping costs, and delivery timelines.",
     phase: "Quotation",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -45,13 +45,13 @@ const processSteps = [
       </svg>
     ),
     businessValue:
-      "Transparent, itemized pricing with no hidden fees — enabling you to make informed procurement decisions.",
+      "Transparent, itemized pricing — no hidden fees, ever.",
   },
   {
     step: 4,
     title: "Shipment Planning",
     description:
-      "Once the quotation is accepted, our logistics team coordinates container booking, cargo readiness, inspection scheduling, and documentation preparation.",
+      "We coordinate container booking, cargo readiness, inspections, and documentation.",
     phase: "Planning",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -59,13 +59,13 @@ const processSteps = [
       </svg>
     ),
     businessValue:
-      "Proactive planning minimizes lead times and ensures your cargo sails on schedule with complete documentation.",
+      "Proactive planning ensures your cargo sails on schedule with complete docs.",
   },
   {
     step: 5,
     title: "Delivery",
     description:
-      "Your shipment is delivered to the agreed destination port with real-time tracking, complete documentation, and our team on standby for any last-mile coordination.",
+      "Your cargo arrives with tracking, docs, and our team on standby for any last-mile needs.",
     phase: "Delivery",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-6 h-6">
@@ -73,7 +73,7 @@ const processSteps = [
       </svg>
     ),
     businessValue:
-      "End-to-end visibility and support so you can focus on your business while we handle the logistics.",
+      "Full visibility and support — you focus on business, we handle logistics.",
   },
 ];
 
@@ -110,8 +110,7 @@ export default function RFQProcess() {
             How It <span className="text-[#D4A017]">Works</span>
           </h2>
           <p className="mt-4 text-gray-500 text-sm md:text-base">
-            From your initial inquiry to cargo arrival — a transparent, guided
-            process designed for international trade professionals.
+            From inquiry to delivery — a transparent process built for global trade professionals.
           </p>
         </motion.div>
 

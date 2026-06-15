@@ -70,7 +70,7 @@ export default function ProductHero({ product }: { product: Product }) {
               </motion.h1>
 
               <motion.p variants={fadeUpBig} className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[560px] font-medium">
-                {product.shortDescription} Sourced from certified farms across Tamil Nadu's prime coconut belt and processed under ISO 22000 & HACCP certified facilities.
+                {product.shortDescription} Sourced from certified farms in Tamil Nadu and processed under ISO 22000 & HACCP certified facilities.
               </motion.p>
 
               {/* Badges */}

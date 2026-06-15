@@ -134,7 +134,7 @@ export default function RFQCTA() {
 
             {/* Sub-copy */}
             <p className="text-green-200/60 text-base sm:text-lg leading-relaxed mb-10 max-w-lg">
-              Our dedicated export team works directly with importers, distributors, and food manufacturers across 15+ countries — delivering premium coconut commodities at commercial scale.
+              We work directly with importers and distributors in 15+ countries — delivering premium coconut commodities at commercial scale.
             </p>
 
             {/* ── Trust signals ── */}

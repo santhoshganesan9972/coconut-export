@@ -187,30 +187,28 @@ export default function Hero() {
                 <span className="block w-8 h-px bg-[#D4A017]/50" />
               </motion.div>
 
-              {/* ── Heading — luxury typography hierarchy (3 lines) ── */}
+              {/* ── Heading — direct, buyer-focused ── */}
               <motion.h1
                 variants={fadeUp}
                 className="text-[clamp(2.4rem,5.5vw,4rem)] leading-[1.08] tracking-[-0.025em] text-white font-bold"
               >
-                <span className="block max-w-4xl">Premium Coconut Export</span>
-                <span className="block text-[clamp(1.4rem,3vw,2.4rem)] leading-[1.2] tracking-[-0.01em] text-[#D4A017] font-normal italic mt-2">
-                  Solutions For
-                </span>
+                <span className="block max-w-4xl">Trusted Coconut</span>
                 <span className="block text-[clamp(1.8rem,4vw,3.2rem)] leading-[1.1] tracking-[-0.02em] text-white font-bold mt-1">
-                  Global Markets
+                  Export Partner
+                </span>
+                <span className="block text-[clamp(1.4rem,3vw,2.4rem)] leading-[1.2] tracking-[-0.01em] text-[#D4A017] font-normal italic mt-2">
+                  Serving Buyers in 15+ Countries
                 </span>
               </motion.h1>
 
-              {/* ── Supporting description — enriched ── */}
+              {/* ── Supporting description — simplified ── */}
               <motion.p
                 variants={fadeUp}
                 className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[620px] font-medium"
               >
-                Supplying bulk coconut, copra and coco peat products to
-                importers, distributors and industrial buyers worldwide with
-                ISO &amp; HACCP certified quality assurance. Our integrated
-                supply chain spans farm sourcing, processing, and door-to-port
-                delivery across 15+ countries.
+                We supply premium coconut, copra and coco peat to importers,
+                distributors and industrial buyers worldwide. ISO &amp; HACCP
+                certified. From farm to port — reliably delivered.
               </motion.p>
 
               {/* ── Trust indicator pills — new ── */}

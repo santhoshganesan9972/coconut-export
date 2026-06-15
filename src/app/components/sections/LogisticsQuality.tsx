@@ -8,7 +8,7 @@ const qualityPillars = [
   {
     title: "Packaging Standards",
     description:
-      "All packaging materials are food-grade certified and selected based on product type, destination climate, and transit duration. Every package is labelled with product grade, net weight, and batch number for full traceability.",
+      "Food-grade packaging selected for your product type, destination climate, and transit duration. Every package labelled with grade, weight, and batch number for full traceability.",
     details: [
       "Ventilated mesh bags for whole coconuts",
       "Jumbo PP bags for copra (50kg / custom)",
@@ -24,7 +24,7 @@ const qualityPillars = [
   {
     title: "Container Preparation",
     description:
-      "Containers are inspected for cleanliness, structural integrity, and ventilation before loading. Temperature and humidity are monitored for sensitive products to maintain optimal conditions throughout transit.",
+      "Containers inspected for cleanliness, structural integrity, and ventilation before loading. Temperature and humidity monitored for sensitive products.",
     details: [
       "Pre-loading container integrity inspection",
       "Cleanliness and odour-free verification",
@@ -40,7 +40,7 @@ const qualityPillars = [
   {
     title: "Inspection Process",
     description:
-      "Multi-stage quality inspection at farm intake, processing line, and pre-shipment stages. Each batch is checked for size uniformity, weight consistency, moisture levels, and visual appearance.",
+      "Inspected at farm intake, processing line, and pre-shipment. Each batch checked for size, weight, moisture, and appearance.",
     details: [
       "Farm-level maturity and quality screening",
       "In-process quality checks at each stage",
@@ -56,7 +56,7 @@ const qualityPillars = [
   {
     title: "Export Compliance",
     description:
-      "Every shipment complies with Indian export regulations and destination country import requirements. Our compliance team manages phytosanitary protocols, customs documentation, and regulatory clearances.",
+      "Every shipment complies with Indian export regulations and destination country import requirements. Our team handles phytosanitary, customs, and regulatory clearance.",
     details: [
       "APEDA registered exporter compliance",
       "Phytosanitary certification for all shipments",

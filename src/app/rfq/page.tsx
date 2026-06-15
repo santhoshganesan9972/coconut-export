@@ -18,7 +18,7 @@ const RFQForm = dynamic(
 
 export const metadata: Metadata = {
   title: "Request a Quote — Bulk Coconut RFQ",    description:
-    "Submit a Request For Quotation (RFQ) for bulk coconut, copra, and coco peat. Get customized pricing, logistics support, and export consultation within 24 hours.",
+    "Request a bulk quotation for coconut, copra, and coco peat. Get pricing, logistics support, and export consultation within 24 hours.",
   keywords: [
     "coconut export RFQ",
     "bulk coconut quotation",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Request a Quote — Bulk Coconut RFQ | Global Coco Exports",
     description:
-      "Submit a Request For Quotation (RFQ) for bulk coconut, copra, and coco peat. Get pricing and export consultation within 24 hours.",
+      "Request a bulk quotation for coconut, copra, and coco peat. Get pricing and export consultation within 24 hours.",
     images: [
       {
         url: "/images/og-rfq.jpg",

@@ -22,7 +22,7 @@ interface CertMeta {
 const CERT_META: Record<string, CertMeta> = {
   "ISO 22000": {
     description:
-      "International standard governing Food Safety Management Systems — the globally recognised benchmark for safe supply chains from farm to final buyer.",
+      "International standard for Food Safety Management Systems — the globally recognised benchmark for safe supply chains from farm to buyer.",
     issuer: "ISO / International Organization for Standardization",
     scope: "Food Safety Management System",
     tier: "featured",
@@ -32,7 +32,7 @@ const CERT_META: Record<string, CertMeta> = {
   },
   HACCP: {
     description:
-      "Hazard Analysis & Critical Control Points — the science-based preventive approach mandated by international food trade bodies to identify, evaluate and control food-safety hazards.",
+      "Hazard Analysis & Critical Control Points — the science-based approach mandated by international food trade bodies to control food-safety hazards.",
     issuer: "Codex Alimentarius Commission (FAO / WHO)",
     scope: "Preventive Food Safety Controls",
     tier: "featured",
@@ -42,7 +42,7 @@ const CERT_META: Record<string, CertMeta> = {
   },
   APEDA: {
     description:
-      "Registered exporter under the Agricultural & Processed Food Products Export Development Authority, Government of India — mandatory for all agricultural commodity exports.",
+      "Registered exporter under the Agricultural & Processed Food Products Export Development Authority (APEDA), Government of India — mandatory for agricultural commodity exports.",
     issuer: "Ministry of Commerce & Industry, Government of India",
     scope: "Agricultural Export Compliance",
     tier: "standard",
@@ -52,7 +52,7 @@ const CERT_META: Record<string, CertMeta> = {
   },
   "SGS Verified": {
     description:
-      "Third-party product and process verification by SGS — the world's leading inspection, testing, and certification company operating in 140+ countries.",
+      "Third-party product and process verification by SGS — the world's leading inspection, testing, and certification company with operations in 140+ countries.",
     issuer: "SGS S.A. — Geneva, Switzerland",
     scope: "Independent Third-Party Verification",
     tier: "standard",
@@ -480,14 +480,13 @@ export default function Certifications() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#111827] leading-tight">
-            Built on{" "}
-            <span className="text-[#1B4332]">International</span>
+            Our{" "}
+            <span className="text-[#1B4332]">Certifications</span>
             <br className="hidden sm:block" />{" "}
-            <span className="text-[#D4A017]">Standards</span>
+            <span className="text-[#D4A017]">& Compliance</span>
           </h2>
           <p className="mt-5 text-gray-500 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Every shipment we dispatch carries the weight of internationally recognised
-            certifications — from food-safety mandates to third-party audit verification.
+            Every shipment carries ISO 22000, HACCP, APEDA, and SGS certified compliance — from food safety to third-party audit verification.
           </p>
 
           {/* Trust signal pills */}
@@ -553,21 +552,21 @@ export default function Certifications() {
         >
           <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-white/10">
             {[
-              {
-                icon: "🏛️",
-                title: "Audit-Ready Documentation",
-                desc: "Complete compliance records available for buyer audits, phytosanitary checks, and customs clearance.",
-              },
-              {
-                icon: "🔏",
-                title: "Certified at Every Stage",
-                desc: "From farm sourcing through processing, packaging, and export — every step is under certified protocols.",
-              },
-              {
-                icon: "📞",
-                title: "Compliance Queries Welcome",
-                desc: "Our team can provide certification documentation and scope letters to your procurement or QA department.",
-              },
+            {
+              icon: "🏛️",
+              title: "Audit-Ready Documentation",
+              desc: "Compliance records available for buyer audits, phytosanitary checks, and customs clearance.",
+            },
+            {
+              icon: "🔏",
+              title: "Certified at Every Stage",
+              desc: "From farm sourcing to processing, packaging, and export — every step under certified protocols.",
+            },
+            {
+              icon: "📞",
+              title: "Compliance Queries Welcome",
+              desc: "We can provide certification documents and scope letters to your procurement or QA team.",
+            },
             ].map((item) => (
               <div
                 key={item.title}

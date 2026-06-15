@@ -9,7 +9,7 @@ const incoterms = [
     code: "FOB",
     full: "Free On Board",
     description:
-      "Seller delivers goods on board the vessel nominated by the buyer at the named port of origin. Risk transfers once the goods are on board. Buyer assumes all costs and risks from that point.",
+      "Seller delivers goods on board at the named port of origin. Risk transfers once goods are on board. Buyer assumes all costs and risks from that point.",
     responsibility: "Buyer arranges and pays for main carriage, insurance, and destination costs.",
     sellerProvides: [
       "Goods to the port of origin",
@@ -29,7 +29,7 @@ const incoterms = [
     code: "CIF",
     full: "Cost, Insurance & Freight",
     description:
-      "Seller covers cost, insurance, and freight to the destination port. Risk transfers to buyer once goods are loaded on board, but seller pays for transport and insurance to destination.",
+      "Seller covers cost, insurance, and freight to destination port. Risk transfers once on board, but seller pays transport and insurance.",
     responsibility: "Seller arranges and pays for carriage to destination port plus minimum insurance coverage.",
     sellerProvides: [
       "Goods to the destination port",
@@ -50,7 +50,7 @@ const incoterms = [
     code: "CFR",
     full: "Cost & Freight",
     description:
-      "Seller covers cost and freight to the destination port. Risk transfers to buyer once goods are on board, but seller pays for transport to destination (without insurance).",
+      "Seller covers cost and freight to destination port. Risk transfers once on board. Buyer arranges their own insurance.",
     responsibility: "Seller arranges and pays for carriage to destination port. Buyer arranges insurance.",
     sellerProvides: [
       "Goods to the destination port",

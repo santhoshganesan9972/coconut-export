@@ -9,7 +9,7 @@ const capabilities = [
     icon: "🚢",
     title: "Global Shipping",
     description:
-      "Multi-port logistics network spanning Chennai, Tuticorin, and Nhava Sheva — enabling flexible FCL and LCL shipping to ports across the Middle East, Europe, Americas, and Asia-Pacific.",
+      "Multi-port logistics from Chennai, Tuticorin, and Nhava Sheva — with FCL and LCL shipping to the Middle East, Europe, Americas, and Asia-Pacific.",
     details: [
       "Weekly FCL availability from 3 major Indian ports",
       "LCL consolidated shipping for trial orders",
@@ -21,7 +21,7 @@ const capabilities = [
     icon: "📋",
     title: "Export Documentation",
     description:
-      "Complete documentation suite prepared for every shipment — ensuring smooth customs clearance and full regulatory compliance at origin and destination ports.",
+      "Complete documentation for every shipment — ensuring smooth customs clearance and full regulatory compliance at origin and destination.",
     details: [
       "Bill of Lading & Packing List",
       "Certificate of Origin (COO)",
@@ -33,7 +33,7 @@ const capabilities = [
     icon: "✅",
     title: "Quality Assurance",
     description:
-      "Multi-stage quality control from farm-level screening to pre-shipment inspection. Every batch is verified against your specifications before container loading.",
+      "Multi-stage quality control from farm screening to pre-shipment inspection. Every batch verified to your specifications before loading.",
     details: [
       "ISO 22000 & HACCP certified processing",
       "Weight and size calibration per grade",
@@ -45,7 +45,7 @@ const capabilities = [
     icon: "📦",
     title: "Container Planning",
     description:
-      "Optimised stowage planning for maximum container utilisation while maintaining product integrity. Custom packaging configurations to suit destination climate and transit duration.",
+      "Optimised stowage for maximum container utilisation while maintaining product integrity. Custom packaging for your destination climate and transit.",
     details: [
       "Ventilated mesh bags for fresh coconuts",
       "Moisture-proof packaging for copra",
@@ -97,8 +97,7 @@ export default function ExportCapabilityShowcase() {
             <span className="text-[#1B4332]">Export Excellence</span>
           </h2>
           <p className="mt-4 text-[#6B7280] text-sm max-w-lg mx-auto">
-            From documentation to delivery — our integrated capabilities ensure
-            your shipment arrives on time, in full compliance, and in optimal condition.
+            From documentation to delivery — we ensure your shipment arrives on time, in full compliance, and in optimal condition.
           </p>
         </motion.div>
 

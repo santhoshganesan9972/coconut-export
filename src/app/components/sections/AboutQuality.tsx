@@ -18,7 +18,7 @@ const qualityPillars = [
     ),
     title: "Product Inspection",
     description:
-      "Every shipment undergoes multi-stage inspection — from farm-level screening of raw material to final container loading. Our quality team checks size uniformity, weight consistency, moisture levels, and visual integrity against defined export-grade specifications.",
+      "Multi-stage inspection from farm screening to container loading. Our team checks size, weight, moisture, and visual integrity against export-grade specifications.",
     details: [
       "Farm-level maturity and size assessment",
       "Processing line visual and dimensional checks",
@@ -33,7 +33,7 @@ const qualityPillars = [
     ),
     title: "Quality Standards",
     description:
-      "Our quality management systems are aligned with ISO 22000 and HACCP frameworks. Every processing stage follows documented standard operating procedures with defined critical control points, monitoring protocols, and corrective action plans.",
+      "Aligned with ISO 22000 and HACCP frameworks. Every stage follows documented SOPs with defined control points, monitoring, and corrective action plans.",
     details: [
       "ISO 22000 Food Safety Management System",
       "HACCP hazard analysis and critical control points",
@@ -48,7 +48,7 @@ const qualityPillars = [
     ),
     title: "Export Compliance",
     description:
-      "We manage all regulatory compliance for international shipments — including phytosanitary certification, customs documentation, Certificate of Origin, and destination-specific import requirements across 15+ markets.",
+      "Full regulatory compliance — phytosanitary certification, customs documentation, Certificate of Origin, and destination-specific import requirements across 15+ markets.",
     details: [
       "Phytosanitary certification for all shipments",
       "Certificate of Origin and customs documentation",
@@ -63,7 +63,7 @@ const qualityPillars = [
     ),
     title: "Consistency Controls",
     description:
-      "Systematic quality controls ensure every shipment meets the same specifications — from sizing and weight to packaging and documentation. Our batch tracking system provides full traceability from farm to port.",
+      "Every shipment meets the same specifications. Batch tracking provides full traceability from farm to port — covering sizing, weight, packaging, and documentation.",
     details: [
       "Batch-level traceability from source to shipment",
       "Weight and size calibration within defined tolerances",

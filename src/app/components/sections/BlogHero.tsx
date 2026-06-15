@@ -56,13 +56,13 @@ export default function BlogHero() {
             </motion.div>
 
             <motion.h1 variants={fadeUp} className="text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.08] tracking-[-0.025em] text-white font-bold">
-              Industry Insights &amp;
+              Export Knowledge
               <br />
-              <span className="text-[#D4A017]">Export Knowledge</span>
+              <span className="text-[#D4A017]">For Global Buyers</span>
             </motion.h1>
 
             <motion.p variants={fadeUp} className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[640px] font-medium">
-              Articles, export guides, market updates, and coconut industry insights for global buyers.
+              Export guides, market trends, and coconut industry insights for international buyers and importers.
             </motion.p>
 
             <motion.div variants={fadeUp} className="mt-6 flex flex-wrap gap-2">

@@ -100,17 +100,15 @@ export default function BlogCTA() {
             Newsletter
           </span>
           <span className="block w-8 h-px bg-[#D4A017]/50" />
-        </motion.div>
-
-        <motion.h2
+        </motion.div>            <motion.h2
           initial={{ opacity: 0, y: 24 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
           className="text-[clamp(2rem,4.5vw,3.5rem)] font-bold text-white leading-[1.12] tracking-[-0.02em]"
         >
-          Stay Updated With
+          Stay Updated
           <br />
-          <span className="text-[#D4A017]">Industry Insights</span>
+          <span className="text-[#D4A017]">Free Industry Insights</span>
         </motion.h2>
 
         <motion.p
@@ -119,7 +117,7 @@ export default function BlogCTA() {
           transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
           className="mt-6 text-white/60 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto"
         >
-          Get the latest export guides, market trends, and coconut industry updates delivered to your inbox.
+          Get export guides, market trends, and coconut industry updates delivered to your inbox.
         </motion.p>
 
         {submitted ? (

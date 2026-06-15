@@ -92,9 +92,7 @@ export default function MenuFinalCTA() {
           transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
           className="mt-6 text-white/60 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto"
         >
-          Explore our complete product catalog and connect with our export team
-          for competitive pricing, technical specifications, and logistics
-          support tailored to your market.
+          Connect with our export team for competitive pricing, technical specs, and logistics support tailored to your market.
         </motion.p>
 
         {/* ── CTA Buttons ── */}

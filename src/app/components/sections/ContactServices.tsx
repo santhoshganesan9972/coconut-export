@@ -8,7 +8,7 @@ const services = [
     icon: "📄",
     title: "Quotation Support",
     description:
-      "Receive detailed commercial quotations tailored to your product selection, volume, and shipping terms within 24 hours.",
+      "Detailed commercial quotations tailored to your product selection, volume, and shipping terms — delivered within 24 hours.",
     detail: "Custom pricing, volume breaks, incoterm options",
     color: "#D4A017",
   },
@@ -16,7 +16,7 @@ const services = [
     icon: "🚢",
     title: "Logistics Consultation",
     description:
-      "Get expert guidance on shipping routes, container planning, freight options, and port selection for your destination market.",
+      "Expert guidance on shipping routes, container planning, freight options, and port selection for your destination.",
     detail: "Route planning, container loading, freight comparison",
     color: "#1B4332",
   },
@@ -24,7 +24,7 @@ const services = [
     icon: "📋",
     title: "Documentation Assistance",
     description:
-      "Complete export documentation support including Certificate of Origin, Phytosanitary, Bill of Lading, and customs clearance.",
+      "Complete export documentation — Certificate of Origin, Phytosanitary, Bill of Lading, and customs clearance support.",
     detail: "Export docs, customs clearance, compliance support",
     color: "#2D7D9A",
   },
@@ -32,7 +32,7 @@ const services = [
     icon: "🔬",
     title: "Product Specifications",
     description:
-      "Access detailed technical specifications, quality parameters, and product certifications for all our coconut product categories.",
+      "Detailed specs, quality parameters, and certifications for all our coconut products.",
     detail: "Spec sheets, quality parameters, certifications",
     color: "#9B59B6",
   },
@@ -40,7 +40,7 @@ const services = [
     icon: "📦",
     title: "Bulk Order Planning",
     description:
-      "We help international buyers plan large-volume orders with production scheduling, quality hold points, and phased delivery timelines.",
+      "We help buyers plan large-volume orders with production scheduling and phased delivery timelines.",
     detail: "Volume planning, production scheduling, phased delivery",
     color: "#E67E22",
   },

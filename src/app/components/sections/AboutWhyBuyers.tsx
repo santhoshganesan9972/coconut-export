@@ -18,7 +18,7 @@ const buyerBenefits = [
     ),
     title: "Consistent Supply",
     description:
-      "Reliable year-round supply supported by a network of 200+ partner farms and multi-region sourcing. We maintain buffer inventory to manage seasonal fluctuations and ensure uninterrupted deliveries to our buyers.",
+      "Year-round supply from 200+ partner farms with multi-region sourcing. Buffer inventory manages seasonal fluctuations for uninterrupted deliveries.",
     stat: { value: "200+", label: "Partner Farms" },
   },
   {
@@ -29,7 +29,7 @@ const buyerBenefits = [
     ),
     title: "Export Expertise",
     description:
-      "Over a decade of international trade experience across 15+ countries. Our team navigates complex customs regimes, phytosanitary requirements, and import regulations with precision — ensuring hassle-free clearance at destination ports.",
+      "10+ years exporting to 15+ countries. Our team navigates customs, phytosanitary, and import regulations for hassle-free clearance at destination ports.",
     stat: { value: "10+", label: "Years Exporting" },
   },
   {
@@ -40,7 +40,7 @@ const buyerBenefits = [
     ),
     title: "Documentation Support",
     description:
-      "Complete export documentation handled in-house — Bill of Lading, Certificate of Origin, Phytosanitary Certificate, Packing List, and customs declarations. Our documentation team ensures 100% accuracy and compliance.",
+      "Complete export documentation in-house — Bill of Lading, Certificate of Origin, Phytosanitary Certificate, Packing List, and customs declarations. 100% accuracy guaranteed.",
     stat: { value: "100%", label: "Docs Accuracy" },
   },
   {
@@ -51,7 +51,7 @@ const buyerBenefits = [
     ),
     title: "Scalable Volumes",
     description:
-      "Whether you need a single 20ft container for trial or regular monthly shipments across multiple product categories, our supply chain is structured to scale with your procurement needs without compromising quality.",
+      "From a single 20ft container to regular monthly multi-product shipments. Our supply chain scales with your needs without compromising quality.",
     stat: { value: "500+", label: "Containers/Year" },
   },
   {
@@ -62,7 +62,7 @@ const buyerBenefits = [
     ),
     title: "Long-Term Partnerships",
     description:
-      "We prioritize relationship building over transactional sales. Our team invests time in understanding your business, quality expectations, and growth plans — resulting in partnerships that span years, not months.",
+      "We build relationships, not transactions. Our team invests in understanding your business and growth plans — resulting in partnerships that last years.",
     stat: { value: "90%+", label: "Repeat Buyers" },
   },
 ];

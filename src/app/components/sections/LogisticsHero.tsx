@@ -75,15 +75,15 @@ export default function LogisticsHero() {
               </motion.div>
 
               <motion.h1 variants={fadeUp} className="text-[clamp(2.2rem,5vw,3.6rem)] leading-[1.08] tracking-[-0.025em] text-white font-bold">
-                <span className="block max-w-4xl">Global Logistics &amp;</span>
+                <span className="block max-w-4xl">Shipping Coconut</span>
                 <span className="block text-[clamp(1.8rem,4vw,3.2rem)] leading-[1.1] tracking-[-0.02em] text-[#D4A017] mt-1">
-                  Export Operations
+                  Worldwide
                 </span>
               </motion.h1>
 
               <motion.p variants={fadeUp} className="mt-6 text-[15px] sm:text-base text-white/60 leading-relaxed max-w-[620px] font-medium">
-                Supporting international buyers through reliable shipping,
-                documentation, container planning, and export coordination.
+                We handle shipping, documentation, container planning, and export
+                coordination so you can receive your order without hassle.
               </motion.p>
 
               <motion.div variants={fadeUp} className="mt-6 flex flex-wrap gap-2">

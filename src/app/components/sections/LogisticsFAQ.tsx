@@ -9,57 +9,57 @@ const faqs = [
   {
     question: "What shipping terms do you support?",
     answer:
-      "We support FOB (Free On Board), CIF (Cost, Insurance & Freight), and CFR (Cost & Freight) incoterms. The choice depends on your risk preference and logistics capability. FOB is ideal for buyers with established freight partnerships, while CIF and CFR provide a single-point logistics solution. Our team can advise on the best option for your specific requirements and destination.",
+      "FOB (Free On Board), CIF (Cost, Insurance & Freight), and CFR (Cost & Freight). FOB for buyers with freight partnerships. CIF/CFR for single-point logistics. Our team advises based on your needs.",
   },
   {
     question: "Can you arrange freight?",
     answer:
-      "Yes, we arrange freight for CIF and CFR shipments. Our logistics team has established relationships with leading shipping lines including Maersk, MSC, CMA CGM, and COSCO, enabling us to secure competitive freight rates and reliable schedules. We handle all freight booking, container tracking, and coordination with shipping lines throughout the transit.",
+      "Yes — for CIF and CFR shipments. We work with Maersk, MSC, CMA CGM, and COSCO for competitive rates and reliable schedules. We handle booking, tracking, and coordination.",
   },
   {
     question: "Which ports do you export from?",
     answer:
-      "We export from three major Indian port corridors: Chennai Port (East Coast) for Southeast Asia, East Asia, and US East Coast routes; Tuticorin/VOC Port (South Coast) for Middle East and European destinations; and Nhava Sheva/JNPT (West Coast) for Europe, Africa, Americas, and Australia. This multi-port strategy gives us routing flexibility to optimize transit times and freight costs for every destination.",
+      "Chennai Port — Southeast Asia, East Asia, US East Coast. Tuticorin — Middle East, Europe. Nhava Sheva — Europe, Africa, Americas, Australia. Multi-port strategy for optimal routing.",
   },
   {
     question: "What documentation is provided?",
     answer:
-      "Every shipment includes a complete documentation package: Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin, and Phytosanitary Certificate. Additional documentation such as SGS Inspection Reports, Fumigation Certificates, Health Certificates, and Destination-Specific Certificates can be arranged upon request. All documents are reviewed for accuracy before submission.",
+      "Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin, and Phytosanitary Certificate. SGS reports, fumigation, health certificates, and destination-specific docs arranged on request.",
   },
   {
     question: "How long does shipping take?",
     answer:
-      "Transit times vary by destination: Middle East ports (5–10 days from Tuticorin), Southeast Asia (7–14 days from Chennai), Europe (20–25 days from Nhava Sheva), US East Coast (20–30 days from Chennai/Nhava Sheva), and Australia (14–20 days from Chennai). Actual transit times depend on the shipping line schedule, routing, and seasonal factors. We provide estimated arrival dates at the time of quotation.",
+      "Middle East: 5–10 days. Southeast Asia: 7–14 days. Europe: 20–25 days. US East Coast: 20–30 days. Australia: 14–20 days. Estimates provided at quotation.",
   },
   {
     question: "Can you handle customs clearance at destination?",
     answer:
-      "While our standard service covers export customs clearance in India, we can coordinate with trusted clearing agents at destination ports for import customs clearance on request. This service is available at select destinations where we have established partnerships. For other destinations, we provide complete documentation to support your customs broker in clearing the shipment efficiently.",
+      "Our standard service covers Indian export customs. We can coordinate with clearing agents at select destination ports for import clearance. For others, we provide complete documentation for your customs broker.",
   },
   {
     question: "What payment terms do you accept for international shipments?",
     answer:
-      "We offer standard international trade payment structures tailored to buyer preferences and risk profiles: Letter of Credit (LC) — irrevocable, confirmed at sight, widely accepted for FOB, CIF, and CFR transactions; Telegraphic Transfer (TT) — advance payment or 30% advance with 70% against shipping documents; Documents Against Payment (DP) — for established buyer relationships with proven trading history; and Structured Terms for long-term contract buyers. Payment terms are finalized during the quotation process and reflected in the commercial invoice and sales contract.",
+      "Letter of Credit (LC) at sight, Telegraphic Transfer (TT), Documents Against Payment (DP), and structured terms for long-term contracts. Finalized during quotation.",
   },
   {
     question: "What insurance coverage do you provide for cargo?",
     answer:
-      "Under CIF terms, marine insurance is included covering Institute Cargo Clauses (A) — the broadest coverage available — from warehouse at origin to warehouse at destination. The insured value is typically 110% of the CIF value. For FOB and CFR shipments, insurance is arranged by the buyer. We can assist in arranging additional insurance coverage for buyers who prefer comprehensive protection beyond the standard CIF minimum. Documentation including the insurance certificate and policy schedule is provided with the shipping documents.",
+      "Under CIF: Institute Cargo Clauses (A) — broadest coverage, warehouse-to-warehouse, insured at 110% of CIF value. For FOB/CFR, insurance arranged by buyer. Additional coverage available on request.",
   },
   {
     question: "Do you offer temperature-controlled (reefer) container options?",
     answer:
-      "Yes, reefer (refrigerated) containers are available for products requiring strict temperature control during transit. This is particularly relevant for fresh coconut shipments to warmer climates or during summer months. Our reefer container specifications include: set-point temperature range of +2°C to +4°C for fresh coconuts; fresh air exchange settings configured for coconut respiration rates; pre-trip inspection (PTI) certificate provided for each reefer unit; and temperature data logging with downloadable records available for buyer review. Reefer container options should be specified at the quotation stage to ensure availability and appropriate freight rate application.",
+      "Yes — reefer containers available for temperature-sensitive products. Set-point +2°C to +4°C for fresh coconuts with fresh air exchange. PTI certificate and temperature data logging included. Specify at quotation stage.",
   },
   {
     question: "Can you customize packaging for my market requirements?",
     answer:
-      "Yes, packaging customization is available to meet destination market preferences, retail requirements, and branding needs. Options include: custom bag sizes — any weight from 5kg to 25kg per bag for whole coconuts; private labelling — your brand name, logo, and product information printed on bags; retail-ready packaging — smaller consumer packs with barcodes and nutritional information; special materials — jute bags, woven PP bags, or branded cartons for premium market segments; and moisture barrier options — specialized liners for high-humidity shipping routes. Custom packaging specifications should be confirmed at the order stage to allow adequate lead time for material procurement.",
+      "Yes — custom bag sizes (5–25kg), private labelling, retail-ready packaging, special materials (jute, PP, cartons), and moisture barrier options available. Confirm at order stage for lead time.",
   },
   {
     question: "What happens if cargo is damaged during transit?",
     answer:
-      "We take every precaution to ensure cargo arrives in optimal condition — including container pre-inspection, proper stowage planning, and ventilation management. However, if damage occurs during ocean transit, the process depends on the incoterm used. Under CIF terms, the marine insurance policy covers cargo damage — buyers should file a claim with the insurance provider and notify the shipping line within the prescribed time frame (typically 3–7 days of discharge). Under FOB/CFR terms, insurance is the buyer's responsibility. In all cases, we provide supporting documentation — including pre-shipment photos, packing lists, and Bill of Lading — to assist with claim processing. We also work with our shipping line partners to investigate and resolve transit-related issues.",
+      "We take every precaution — container pre-inspection, proper stowage, ventilation. If damage occurs: under CIF, insurance covers it — file claim within 3–7 days. Under FOB/CFR, insurance is your responsibility. We provide supporting documentation for claims.",
   },
 ];
 

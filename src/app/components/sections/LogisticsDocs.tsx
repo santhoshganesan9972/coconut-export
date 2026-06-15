@@ -8,7 +8,7 @@ const documents = [
   {
     title: "Certificate of Origin",
     description:
-      "Official document certifying the country of origin for customs and tariff purposes. Issued by authorized chambers of commerce under APEDA guidelines.",
+      "Official document certifying country of origin for customs and tariff purposes. Issued by authorized chambers of commerce under APEDA.",
     usage: "Required by destination customs for duty assessment and trade agreement benefits.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-5 h-5">
@@ -20,7 +20,7 @@ const documents = [
   {
     title: "Phytosanitary Certificate",
     description:
-      "Government-issued certificate confirming the consignment meets the plant health requirements of the importing country. Issued by the National Plant Protection Organization.",
+      "Government-issued certificate confirming the consignment meets the importing country's plant health requirements.",
     usage: "Mandatory for agricultural product imports. Required by most destination country quarantine authorities.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-5 h-5">
@@ -32,7 +32,7 @@ const documents = [
   {
     title: "Bill of Lading",
     description:
-      "Legal document issued by the shipping line confirming receipt of goods for shipment. Serves as the contract of carriage and document of title for the consignment.",
+      "Legal document from the shipping line confirming receipt of goods. Serves as contract of carriage and title document.",
     usage: "Required for the buyer to take possession of cargo at destination. Key document for letter of credit transactions.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-5 h-5">
@@ -44,7 +44,7 @@ const documents = [
   {
     title: "Commercial Invoice",
     description:
-      "Official invoice detailing the transaction value, product description, quantity, unit price, and total amount. Used by customs for valuation and duty assessment.",
+      "Official invoice detailing transaction value, product description, quantity, unit price, and total amount. Used by customs for duty assessment.",
     usage: "Essential for customs clearance at both export and import stages. Required for payment processing.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-5 h-5">
@@ -56,7 +56,7 @@ const documents = [
   {
     title: "Packing List",
     description:
-      "Detailed document listing the contents of each package in the consignment — including weight, dimensions, and markings. Complements the commercial invoice for customs inspection.",
+      "Lists contents of each package — weight, dimensions, and markings. Complements the commercial invoice for customs.",
     usage: "Used by customs for physical verification. Helps buyers verify shipment contents against order.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-5 h-5">
@@ -68,7 +68,7 @@ const documents = [
   {
     title: "SGS Inspection Report",
     description:
-      "Independent third-party inspection report by SGS — the world's leading inspection and testing company. Verifies product quality, quantity, and loading conditions.",
+      "Independent third-party inspection report by SGS verifying product quality, quantity, and loading conditions.",
     usage: "Provides independent quality assurance for buyers. Often required for letter of credit compliance.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.3} className="w-5 h-5">
